@@ -1,0 +1,17 @@
+*/_notes/
+/_notes/
+/*_notes/
+.DS_Store
+/assets/.DS_Store
+/*_notes/
+*/_notes/
+*/*/_notes/
+*/*/*/_notes/
+temp/
+.settings
+.buildpath
+.project
+.idea
+
+/vendor/
+/.history

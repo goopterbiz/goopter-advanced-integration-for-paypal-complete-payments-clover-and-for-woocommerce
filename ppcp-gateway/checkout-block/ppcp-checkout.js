@@ -1,0 +1,271 @@
+var {createElement} = wp.element;
+var {registerPlugin} = wp.plugins;
+var {ExperimentalOrderMeta} = wc.blocksCheckout;
+var {registerExpressPaymentMethod, registerPaymentMethod} = wc.wcBlocksRegistry;
+var {addAction, removeAction} = wp.hooks;
+
+(function (e) {
+    var t = {};
+    function n(o) {
+        if (t[o])
+            return t[o].exports;
+        var r = (t[o] = {
+            i: o,
+            l: !1,
+            exports: {},
+        });
+        return (
+                e[o].call(r.exports, r, r.exports, n), (r.l = !0), r.exports
+                );
+    }
+    n.m = e;
+    n.c = t;
+    n.d = function (e, t, o) {
+        n.o(e, t) ||
+                Object.defineProperty(e, t, {
+                    enumerable: !0,
+                    get: o,
+                });
+    };
+    n.r = function (e) {
+        "undefined" != typeof Symbol &&
+                Symbol.toStringTag &&
+                Object.defineProperty(e, Symbol.toStringTag, {
+                    value: "Module",
+                });
+        Object.defineProperty(e, "__esModule", {
+            value: !0,
+        });
+    };
+    n.t = function (e, t) {
+        if (1 & t && (e = n(e)), 8 & t)
+            return e;
+        if (
+                4 & t &&
+                "object" == typeof e &&
+                e &&
+                e.__esModule
+                )
+            return e;
+        var o = Object.create(null);
+        if (
+                (n.r(o),
+                        Object.defineProperty(o, "default", {
+                            enumerable: !0,
+                            value: e,
+                        }),
+                        2 & t && "string" != typeof e)
+                )
+            for (var r in e)
+                n.d(
+                        o,
+                        r,
+                        ((t) => {
+                            return e[t];
+                        }).bind(null, r)
+                        );
+        return o;
+    };
+    n.n = function (e) {
+        var t = e && e.__esModule ? () => e.default : () => e;
+        return n.d(t, "a", t), t;
+    };
+    n.o = function (e, t) {
+        return Object.prototype.hasOwnProperty.call(e, t);
+    };
+    n.p = "";
+    n(n.s = 6);
+})([
+    function (e, t) {
+        e.exports = window.wp.element;
+    },
+    function (e, t) {
+        e.exports = window.wp.htmlEntities;
+    },
+    function (e, t) {
+        e.exports = window.wp.i18n;
+    },
+    function (e, t) {
+        e.exports = window.wc.wcSettings;
+    },
+    function (e, t) {
+        e.exports = window.wc.wcBlocksRegistry;
+    },
+    ,
+            function (e, t, n) {
+                "use strict";
+                n.r(t);
+                var o,
+                        r = n(0),
+                        c = n(4),
+                        i = n(2),
+                        u = n(3),
+                        a = n(1);
+                const l = Object(u.getSetting)("goopter_ppcp_data", {});
+                const p = () => Object(a.decodeEntities)(l.description || "");
+                const {useEffect} = window.wp.element;
+
+                // checkout 
+                const Content_PPCP_Smart_Button = (props) => {
+                    const {billing, shippingData} = props;
+                    goopterOrder.addPPCPCheckoutUpdatedEventListener(billing, shippingData);
+                    return createElement("div", {key: "default", id: "goopter_ppcp_checkout"});
+                };
+
+                // cart
+                const Content_PPCP_Smart_Button_Express = () => {
+                    useEffect(() => {
+                        goopterOrder.renderPaymentButtons();
+                    }, []);
+                    
+                    let renderComponents = [createElement("div", {key: "default", id: "goopter_ppcp_checkout_top"})];
+                    if (goopter_ppcp_manager.advanced_card_payments !== 'yes') {
+                        if (goopterOrder.isApplePayEnabled()) {
+                            jQuery.each(goopter_ppcp_manager.apple_pay_btn_selector, function (key) {
+                                renderComponents.push(createElement("div", {key, id: key}));
+                            });
+                        }
+                        if (goopterOrder.isGooglePayEnabled()) {
+                            jQuery.each(goopter_ppcp_manager.google_pay_btn_selector, function (key) {
+                                renderComponents.push(createElement("div", {key, id: key}));
+                            });
+                        }
+                    }
+                    return renderComponents;
+                };
+
+                jQuery(document.body).on('added_to_cart', () => {
+                    location.reload();
+                });
+                
+                const render = () => {
+                    useEffect(() => {
+                        jQuery(document.body).trigger("ppcp_block_paylater_ready");
+                    }, []);
+                    const shouldShowDiv =
+                            is_paylater_enable_incart_page === "yes";
+                    return shouldShowDiv ? (
+                            createElement(ExperimentalOrderMeta, null, createElement("div", {className: "goopter_ppcp_message_cart"}))
+                            ) : null;
+                };
+
+                // checkout
+                const s = {
+                    name: goopter_ppcp_manager_block.payment_method,
+                    label: createElement(
+                            "span",
+                            {style: {width: "100%"}},
+                            l.title,
+                            createElement("img", {
+                                src: l.icon,
+                                style: {float: "right", marginRight: "20px"},
+                            })
+                            ),
+                    placeOrderButtonLabel: Object(i.__)(
+                            goopter_ppcp_manager_block.placeOrderButtonLabel
+                            ),
+                    content: createElement(Content_PPCP_Smart_Button, null),
+                    edit: Object(r.createElement)(p, null),
+                    canMakePayment: () => Promise.resolve(!0),
+                    ariaLabel: Object(a.decodeEntities)(
+                            l.title ||
+                            Object(i.__)("Payment via PayPal", "woo-gutenberg-products-block")
+                            ),
+                    supports: {
+                        features:
+                                null !== (o = l.supports) && void 0 !== o ? o : [],
+                        showSavedCards: !1,
+                        showSaveOption: !1,
+                    },
+                };
+                Object(c.registerPaymentMethod)(s);
+
+                const ppcp_settings =
+                        goopter_ppcp_manager_block.settins;
+                const {
+                    is_order_confirm_page,
+                    is_paylater_enable_incart_page,
+                    page,
+                } = goopter_ppcp_manager_block;
+                
+                // cart
+                const commonExpressPaymentMethodConfig = {
+                    name: "goopter_ppcp_top",
+                    label: Object(a.decodeEntities)(
+                            l.title ||
+                            Object(i.__)("Payment via PayPal", "woo-gutenberg-products-block")
+                            ),
+                    content: createElement(Content_PPCP_Smart_Button_Express, null),
+                    edit: Object(r.createElement)(p, null),
+                    ariaLabel: Object(a.decodeEntities)(
+                            l.title ||
+                            Object(i.__)("Payment via PayPal", "woo-gutenberg-products-block")
+                            ),
+                    canMakePayment: () => !0,
+                    paymentMethodId: "goopter_ppcp",
+                    supports: {
+                        features: l.supports || [],
+                    },
+                };
+
+                if (
+                        page === "checkout" &&
+                        is_order_confirm_page === "no" &&
+                        ppcp_settings &&
+                        (ppcp_settings.checkout_page_display_option === "both" ||
+                                ppcp_settings.checkout_page_display_option === "top")
+                        ) {
+                    registerExpressPaymentMethod(
+                            commonExpressPaymentMethodConfig
+                            );
+                    registerPlugin("wc-ppcp", {render, scope: "woocommerce-checkout"});
+                } else if (
+                        page === "cart" &&
+                        ppcp_settings &&
+                        ppcp_settings.enable_cart_button === "yes"
+                        ) {
+                    registerExpressPaymentMethod(
+                            commonExpressPaymentMethodConfig
+                            );
+                }
+
+
+
+                if (
+                        jQuery.inArray("cart", ppcp_settings.pay_later_messaging_page_type) !==
+                        -1
+                        ) {
+                    registerPlugin("wc-ppcp-cart", {render, scope: "woocommerce-cart"});
+                } else if (
+                        jQuery.inArray(
+                                "payment",
+                                ppcp_settings.pay_later_messaging_page_type
+                                ) !== -1
+                        ) {
+                    registerPlugin("wc-ppcp-checkout", {render, scope: "woocommerce-checkout"});
+                }
+            },
+]);
+
+document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(function () {
+        jQuery(document.body).trigger("ppcp_block_ready");
+    }, 2000);
+});
+
+const ppcp_uniqueEvents = new Set([
+    "experimental__woocommerce_blocks-checkout-set-shipping-address",
+    "experimental__woocommerce_blocks-checkout-set-billing-address",
+    "experimental__woocommerce_blocks-checkout-set-email-address",
+    "experimental__woocommerce_blocks-checkout-render-checkout-form",
+    "experimental__woocommerce_blocks-checkout-set-active-payment-method",
+]);
+
+ppcp_uniqueEvents.forEach(function (action) {
+    removeAction(action, 'c');
+    addAction(action, 'c', function () {
+        setTimeout(function () {
+            jQuery(document.body).trigger("ppcp_checkout_updated");
+        }, 500);
+    });
+});
