@@ -81,7 +81,7 @@ trait Goopter_WC_Gateway_Base
     
     public function process_refund($order_id, $amount = null, $reason = '') {
         if ($amount <= 0) {
-            return new WP_Error('error', __('Invalid refund amount', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'));
+            return new WP_Error('error', __('Invalid refund amount', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'));
         }
         
         $order = wc_get_order($order_id);
@@ -89,7 +89,7 @@ trait Goopter_WC_Gateway_Base
             if($order && $this->can_refund_order($order) && goopter_ppcp_order_item_meta_key_exists($order, '_ppcp_capture_details')) {
                 $capture_data_list = $this->payment_request->goopter_ppcp_prepare_refund_request_data_for_capture($order, $amount);
                 if(empty($capture_data_list)) {
-                    throw new Exception( esc_html__( 'No Capture transactions available for refund.', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce' ) );
+                    throw new Exception( esc_html__( 'No Capture transactions available for refund.', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce' ) );
                 }
                 $failed_result_count = 0;
                 $successful_transaction = 0;
@@ -108,7 +108,7 @@ trait Goopter_WC_Gateway_Base
                 return true;
             } else {
                 if (!$this->can_refund_order($order)) {
-                    return new WP_Error('error', __('Refund failed.', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'));
+                    return new WP_Error('error', __('Refund failed.', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'));
                 }
                 $transaction_id = $order->get_transaction_id();
                 $bool = $this->payment_request->goopter_ppcp_refund_order($order_id, $amount, $reason, $transaction_id);

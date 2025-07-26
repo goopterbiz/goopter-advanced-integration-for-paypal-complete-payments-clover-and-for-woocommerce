@@ -1,0 +1,3244 @@
+# Copyright (C) 2025 Goopter
+# This file is distributed under the GNU General Public License v3.0.
+msgid ""
+msgstr ""
+"Project-Id-Version: Goopter advanced integration for PayPal Complete Payments Clover and for WooCommerce 1.0.10\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-07-25T17:04:11+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce\n"
+
+#. Plugin Name of the plugin
+#: goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce.php
+msgid "Goopter advanced integration for PayPal Complete Payments Clover and for WooCommerce"
+msgstr ""
+
+#. Description of the plugin
+#: goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce.php
+msgid "Integrate the PayPal Complete Payments Platform and Clover into your WooCommerce site, offering PayPal Checkout, Pay Later, Venmo, direct credit card processing, and various alternative payment options such as Apple Pay, Google Pay, and others!"
+msgstr ""
+
+#. Author of the plugin
+#: goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce.php
+msgid "Goopter"
+msgstr ""
+
+#. Author URI of the plugin
+#: goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce.php
+msgid "https://www.goopter.com/"
+msgstr ""
+
+#: classes/wc-email-customer-partial-paid-order.php:15
+msgid "Partially Paid order - Customer"
+msgstr ""
+
+#: classes/wc-email-customer-partial-paid-order.php:16
+msgid "This is an order notification sent to customers containing order details after partially paid."
+msgstr ""
+
+#: classes/wc-email-customer-partial-paid-order.php:38
+msgid "[{site_title}]: Order #{order_number} has Partially Paid"
+msgstr ""
+
+#: classes/wc-email-customer-partial-paid-order.php:42
+msgid "Order Partially Paid: #{order_number}"
+msgstr ""
+
+#: classes/wc-email-customer-partial-paid-order.php:93
+msgid "We look forward to fulfilling your order soon."
+msgstr ""
+
+#. translators: %s: list of placeholders
+#: classes/wc-email-customer-partial-paid-order.php:101
+#: classes/wc-email-new-partial-paid-order.php:102
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: classes/wc-email-customer-partial-paid-order.php:104
+#: classes/wc-email-new-partial-paid-order.php:105
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:418
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:536
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:743
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:964
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:986
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1193
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1320
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1412
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1505
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1598
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1691
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1784
+msgid "Enable/Disable"
+msgstr ""
+
+#: classes/wc-email-customer-partial-paid-order.php:106
+#: classes/wc-email-new-partial-paid-order.php:107
+msgid "Enable this email notification"
+msgstr ""
+
+#: classes/wc-email-customer-partial-paid-order.php:110
+#: classes/wc-email-new-partial-paid-order.php:111
+msgid "Recipient(s)"
+msgstr ""
+
+#. translators: %s: WP admin email
+#: classes/wc-email-customer-partial-paid-order.php:113
+#: classes/wc-email-new-partial-paid-order.php:114
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+
+#: classes/wc-email-customer-partial-paid-order.php:119
+#: classes/wc-email-new-partial-paid-order.php:120
+msgid "Subject"
+msgstr ""
+
+#: classes/wc-email-customer-partial-paid-order.php:127
+#: classes/wc-email-new-partial-paid-order.php:128
+msgid "Email heading"
+msgstr ""
+
+#: classes/wc-email-customer-partial-paid-order.php:135
+#: classes/wc-email-new-partial-paid-order.php:136
+msgid "Additional content"
+msgstr ""
+
+#: classes/wc-email-customer-partial-paid-order.php:136
+#: classes/wc-email-new-partial-paid-order.php:137
+msgid "Text to appear below the main email content."
+msgstr ""
+
+#: classes/wc-email-customer-partial-paid-order.php:138
+#: classes/wc-email-new-partial-paid-order.php:139
+#: template/wc-admin/html-order-shipping.php:29
+msgid "N/A"
+msgstr ""
+
+#: classes/wc-email-customer-partial-paid-order.php:144
+#: classes/wc-email-new-partial-paid-order.php:145
+msgid "Email type"
+msgstr ""
+
+#: classes/wc-email-customer-partial-paid-order.php:146
+#: classes/wc-email-new-partial-paid-order.php:147
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: classes/wc-email-new-partial-paid-order.php:14
+msgid "Partially Paid order - Admin"
+msgstr ""
+
+#: classes/wc-email-new-partial-paid-order.php:15
+msgid "New order emails are sent to chosen recipient(s) when a new order is received."
+msgstr ""
+
+#: classes/wc-email-new-partial-paid-order.php:40
+msgid "[{site_title}]: New order #{order_number} has Partially Paid"
+msgstr ""
+
+#: classes/wc-email-new-partial-paid-order.php:44
+msgid "New Order: #{order_number} has Partially Paid"
+msgstr ""
+
+#: classes/wc-email-new-partial-paid-order.php:94
+msgid "Congratulations on the sale."
+msgstr ""
+
+#: goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce.php:43
+msgid "This plugin cannot be activated while Goopter advanced integration for PayPal Complete Payments and for WooCommerce is active. Please deactivate the plugin first."
+msgstr ""
+
+#: goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce.php:44
+msgid "Plugin Activation Error"
+msgstr ""
+
+#: goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce.php:181
+msgid "Configure"
+msgstr ""
+
+#: goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce.php:184
+msgid "Contact"
+msgstr ""
+
+#: goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce.php:271
+msgid "Choose Image"
+msgstr ""
+
+#: goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce.php:361
+msgid "PayPal for WooCommerce - Settings"
+msgstr ""
+
+#: goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce.php:526
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1979
+msgid "Payment Action"
+msgstr ""
+
+#: goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce.php:598
+#: goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce.php:604
+msgctxt "Order status"
+msgid "Partially Paid"
+msgstr ""
+
+#. Translators: %s is the count of partially paid items.
+#: goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce.php:610
+msgid "Partially Paid <span class=\"count\">(%s)</span>"
+msgid_plural "Partially Paid <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce.php:684
+msgid "Items"
+msgstr ""
+
+#: goopter-includes/goopter-admin-order-payment-process.php:25
+#: goopter-includes/goopter-admin-order-payment-process.php:26
+msgid "Reference Transaction"
+msgstr ""
+
+#: goopter-includes/goopter-admin-order-payment-process.php:323
+#: goopter-includes/goopter-admin-order-payment-process.php:343
+msgid "Payment method is not available for payment process, Please select Payment method from Billing details section."
+msgstr ""
+
+#: goopter-includes/goopter-admin-order-payment-process.php:326
+#: goopter-includes/goopter-admin-order-payment-process.php:346
+msgid "Payment Token Or Reference transaction ID is not available for payment process."
+msgstr ""
+
+#: goopter-includes/goopter-admin-order-payment-process.php:330
+#: goopter-includes/goopter-admin-order-payment-process.php:350
+msgid "Order total must be greater than zero to process a reference transaction."
+msgstr ""
+
+#: goopter-includes/goopter-admin-order-payment-process.php:332
+msgid "Make any necessary adjustments to the item(s) on the order and calculate totals.  Remember to click Update if any adjustments were made, and then click Process Reference Transaction."
+msgstr ""
+
+#: goopter-includes/goopter-admin-order-payment-process.php:340
+msgid "This order is not associated with a registered user account, hence a reference transaction can not be done."
+msgstr ""
+
+#: goopter-includes/goopter-utility.php:37
+#: goopter-includes/goopter-utility.php:38
+msgid "PayPal Transaction"
+msgstr ""
+
+#: goopter-includes/goopter-utility.php:39
+msgctxt "Admin menu name"
+msgid "PayPal Transaction"
+msgstr ""
+
+#: goopter-includes/goopter-utility.php:40
+msgid "Add PayPal Transaction"
+msgstr ""
+
+#: goopter-includes/goopter-utility.php:41
+msgid "Add New PayPal Transaction"
+msgstr ""
+
+#: goopter-includes/goopter-utility.php:42
+#: ppcp-gateway/class-goopter-paypal-ppcp-smart-button.php:1096
+#: ppcp-gateway/class-goopter-paypal-ppcp-smart-button.php:1134
+#: template/ppcp-funnelkit-order-review.php:198
+#: template/ppcp-funnelkit-order-review.php:226
+msgid "Edit"
+msgstr ""
+
+#: goopter-includes/goopter-utility.php:43
+#: goopter-includes/goopter-utility.php:45
+#: goopter-includes/goopter-utility.php:46
+msgid "View PayPal Transaction"
+msgstr ""
+
+#: goopter-includes/goopter-utility.php:44
+msgid "New PayPal Transaction"
+msgstr ""
+
+#: goopter-includes/goopter-utility.php:47
+msgid "Search PayPal Transaction"
+msgstr ""
+
+#: goopter-includes/goopter-utility.php:48
+msgid "No PayPal Transaction found"
+msgstr ""
+
+#: goopter-includes/goopter-utility.php:49
+msgid "No PayPal Transaction found in trash"
+msgstr ""
+
+#: goopter-includes/goopter-utility.php:50
+msgid "Parent PayPal Transaction"
+msgstr ""
+
+#: goopter-includes/goopter-utility.php:52
+msgid "This is where you can add new PayPal Transaction to your store."
+msgstr ""
+
+#: goopter-includes/goopter-utility.php:93
+msgid "Billing Agreement Details"
+msgstr ""
+
+#: ppcp-gateway/admin/class-goopter-paypal-ppcp-apple-pay-configurations.php:81
+msgid "Domain listing retrieved successfully."
+msgstr ""
+
+#: ppcp-gateway/admin/class-goopter-paypal-ppcp-apple-pay-configurations.php:102
+msgid "Your domain has been registered successfully, Close the popup and refresh the page to update the status."
+msgstr ""
+
+#: ppcp-gateway/admin/class-goopter-paypal-ppcp-apple-pay-configurations.php:193
+msgid "Please enter a valid domain name to register."
+msgstr ""
+
+#: ppcp-gateway/admin/class-goopter-paypal-ppcp-apple-pay-configurations.php:218
+msgid "Domain has been added successfully."
+msgstr ""
+
+#: ppcp-gateway/admin/class-goopter-paypal-ppcp-apple-pay-configurations.php:225
+msgid "Domain is already registered."
+msgstr ""
+
+#: ppcp-gateway/admin/class-goopter-paypal-ppcp-apple-pay-configurations.php:227
+msgid "Domain is registered with another merchant."
+msgstr ""
+
+#: ppcp-gateway/admin/class-goopter-paypal-ppcp-apple-pay-configurations.php:229
+msgid "An error occurred."
+msgstr ""
+
+#: ppcp-gateway/admin/class-goopter-paypal-ppcp-apple-pay-configurations.php:258
+msgid "Domain has been removed successfully."
+msgstr ""
+
+#: ppcp-gateway/admin/class-goopter-paypal-ppcp-apple-pay-configurations.php:334
+msgid "Unable to update the verification file content. Error: "
+msgstr ""
+
+#: ppcp-gateway/admin/templates/apple-pay-domain-list.php:11
+msgid "Add Domain"
+msgstr ""
+
+#: ppcp-gateway/admin/templates/apple-pay-domain-list.php:16
+msgid "Please ensure that the following link is accessible in order to verify the domain. When you click the link you should see a separate page load with a bunch of numbers displayed. This means it is accessible."
+msgstr ""
+
+#: ppcp-gateway/admin/templates/apple-pay-domain-list.php:18
+msgid "Once you have verified the page is accessible, click the Add Domain button. Your domain will then show up in the list below, and this means you are ready to accept Apple Pay on your website!"
+msgstr ""
+
+#: ppcp-gateway/admin/templates/apple-pay-domain-list.php:35
+msgid "Domains in Your PayPal Account"
+msgstr ""
+
+#: ppcp-gateway/admin/templates/apple-pay-domain-list.php:37
+msgid "Domain Name"
+msgstr ""
+
+#: ppcp-gateway/admin/templates/apple-pay-domain-list.php:37
+msgid "Action"
+msgstr ""
+
+#: ppcp-gateway/admin/templates/apple-pay-domain-list.php:46
+msgid "Delete"
+msgstr ""
+
+#: ppcp-gateway/admin/templates/apple-pay-domain-list.php:52
+msgid "No domains registered yet."
+msgstr ""
+
+#: ppcp-gateway/cartflow/class-cartflows-pro-gateway-paypal-ppcp-goopter-cc.php:138
+#: ppcp-gateway/cartflow/class-cartflows-pro-gateway-paypal-ppcp-goopter.php:138
+msgid "Cannot create orders with empty product."
+msgstr ""
+
+#: ppcp-gateway/cartflow/class-cartflows-pro-gateway-paypal-ppcp-goopter-cc.php:149
+#: ppcp-gateway/cartflow/class-cartflows-pro-gateway-paypal-ppcp-goopter.php:149
+msgid "Cannot make the Payment for Zero value product"
+msgstr ""
+
+#: ppcp-gateway/cartflow/class-cartflows-pro-gateway-paypal-ppcp-goopter-cc.php:197
+#: ppcp-gateway/cartflow/class-cartflows-pro-gateway-paypal-ppcp-goopter-cc.php:257
+#: ppcp-gateway/cartflow/class-cartflows-pro-gateway-paypal-ppcp-goopter.php:197
+#: ppcp-gateway/cartflow/class-cartflows-pro-gateway-paypal-ppcp-goopter.php:257
+msgid "PayPal order is not created"
+msgstr ""
+
+#: ppcp-gateway/cartflow/class-cartflows-pro-gateway-paypal-ppcp-goopter-cc.php:211
+#: ppcp-gateway/cartflow/class-cartflows-pro-gateway-paypal-ppcp-goopter.php:211
+msgid "Order created successfully"
+msgstr ""
+
+#: ppcp-gateway/cartflow/class-cartflows-pro-gateway-paypal-ppcp-goopter-cc.php:271
+#: ppcp-gateway/cartflow/class-cartflows-pro-gateway-paypal-ppcp-goopter.php:271
+msgid "Order Captured successfully"
+msgstr ""
+
+#. translators: %s is replaced with the order ID.
+#. translators: %s will be replaced with the order ID.
+#: ppcp-gateway/cartflow/class-cartflows-pro-gateway-paypal-ppcp-goopter-cc.php:290
+#: ppcp-gateway/cartflow/class-cartflows-pro-gateway-paypal-ppcp-goopter.php:290
+#: ppcp-gateway/funnelkit/class-wfocu-paypal-for-wc-gateway-goopter-ppcp-cc.php:485
+#: ppcp-gateway/funnelkit/class-wfocu-paypal-for-wc-gateway-goopter-ppcp.php:555
+msgid "One Time Offer - %s"
+msgstr ""
+
+#: ppcp-gateway/checkout-block/goopter-direct-pay-block.php:25
+#: ppcp-gateway/checkout-block/goopter-ppcp-apple-pay-block.php:30
+#: ppcp-gateway/checkout-block/goopter-ppcp-checkout-block.php:30
+#: ppcp-gateway/checkout-block/goopter-ppcp-google-pay-block.php:30
+msgid "Confirm Your Order"
+msgstr ""
+
+#: ppcp-gateway/checkout-block/goopter-ppcp-cc-block.php:30
+msgid "Confirm Your PayPal Order"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:174
+msgid "Authorization Voided"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:176
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2735
+msgid "Void Authorization Failed:"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:325
+msgid "Error: Unable to detect the order, please refresh again to retry or Contact PayPal For WooCommerce support."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:363
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:403
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:413
+#: template/wc-admin/html-order-items.php:305
+msgid "Refund"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:375
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:446
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:280
+msgid "Capture"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:398
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:404
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:448
+msgid "Void Authorization"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:399
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:405
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:408
+msgid "Capture Funds"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:446
+msgid "Capture payment for the authorized order."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:448
+msgid "Void the authorized order to release the hold on the buyer's payment source."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:479
+msgid "Additional Capture Possible"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:486
+msgid "Yes (option to capture additional funds on this authorization if need)"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:491
+msgid "No (no additional capture needed; close authorization after this capture)"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:499
+msgid "This will show the total amount to be captured/voided"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:500
+msgid "Amount"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:511
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:552
+msgid "Note To Buyer (Optional)"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:512
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:553
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:565
+msgid "PayPal strongly recommends that you explain any unique circumstances (e.g. multiple captures, changes in item availability) to your buyer in detail below. Your buyer will see this note in the Transaction Details."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:522
+msgid "Transaction Id"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:530
+msgid "Select Transaction Id"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:542
+msgid "Refund Amount"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:579
+msgid "Submit"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:604
+msgid "Capture Details"
+msgstr ""
+
+#. Translators: %1$s is the date, and %2$s is the time.
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:617
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:674
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:664
+msgid "Refund Details"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:727
+msgid "Total Capture:"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-action.php:748
+msgid "Capture the authorized order to receive funds in your PayPal account."
+msgstr ""
+
+#. Translators: %s is the name of the PayPal solution (e.g., PayPal Advanced).
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:244
+msgid "Welcome to the %s solution for WooCommerce. <br> Built by Goopter Commerce Solutions."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:259
+msgid "Start Now"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:277
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:409
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:483
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:534
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:858
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:976
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:1065
+msgid "We could not properly connect to PayPal"
+msgstr ""
+
+#. translators: %s: PayPal fee structure
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:284
+msgid "Increase average order totals and conversion rates with <br>PayPal Checkout, PayPal Credit, Buy Now Pay Later, Venmo, and more! <br>All for a total PayPal + Goopter fee of only %s."
+msgstr ""
+
+#. Translators: %s is the PayPal and Goopter fee structure for Visa/MasterCard/Discover transactions.
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:294
+msgid "Fees on Visa/MasterCard/Discover transactions <br>transactions are a total PayPal + Goopter fee of only %s."
+msgstr ""
+
+#. translators: %s: PayPal + Goopter fee structure
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:307
+msgid "Save money on Visa/MasterCard/Discover transactions <br>with a total PayPal + Goopter fee of only %s."
+msgstr ""
+
+#. translators: %s: Name of the product or service
+#. Translators: %s is the name of the PayPal solution (e.g., PayPal Advanced).
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:338
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:435
+msgid "You’re currently set up and enjoying the benefits of %s. <br> Built by Goopter."
+msgstr ""
+
+#. translators: %s: Reduced rate fee structure
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:350
+msgid "However, we need additional verification to approve you for the reduced <br>rate of %s on debit/credit cards."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:359
+msgid "To apply for a reduced rate, modify your setup, <br>or learn more about additional options, please use the buttons below."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:368
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:441
+msgid "Your PayPal account is not approved for the Vault functionality<br>which is required for Subscriptions (token payments). <br>Please Reconnect your PayPal account to apply for this feature."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:376
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:450
+msgid "Modify Setup"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:391
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:465
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:516
+msgid "Reconnect PayPal Account"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:436
+msgid "To modify your setup or learn more about additional options, <br> please use the buttons below."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:496
+msgid "Have A Question Or Need Expert Help?"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-admin-onboarding.php:497
+msgid "Contact Support"
+msgstr ""
+
+#. Translators: %s is the URL to the shop page.
+#: ppcp-gateway/class-goopter-paypal-ppcp-checkout.php:23
+#: ppcp-gateway/class-goopter-paypal-ppcp-checkout.php:89
+msgid "Sorry, your session has expired. <a href=\"%s\" class=\"wc-backward\">Return to shop</a>"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-checkout.php:51
+#: ppcp-gateway/class-goopter-paypal-ppcp-checkout.php:117
+msgid "Unable to create order."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-checkout.php:126
+msgid "Unable to create order due to following errors."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-front-action.php:266
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:178
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1589
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2284
+msgid "Sorry, your session has expired."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-front-action.php:372
+msgid "Order ID is invalid"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-front-action.php:609
+#: ppcp-gateway/class-goopter-paypal-ppcp-front-action.php:614
+#: ppcp-gateway/class-goopter-paypal-ppcp-front-action.php:622
+#: ppcp-gateway/class-goopter-paypal-ppcp-front-action.php:626
+msgid "We cannot process your order with the payment information that you provided. Please use an alternate payment method."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-front-action.php:809
+msgid "3D Secure response"
+msgstr ""
+
+#. Translators: %s is the unsupported currency code.
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:460
+msgid "Currency code (%s) is not currently supported."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:462
+msgid "We were unable to process your order, please try again with same or other payment method(s)."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:644
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:763
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1692
+msgid "Fee"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1277
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1848
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2071
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2792
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3230
+msgid "Card Details"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1290
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1859
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2082
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2803
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3240
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3311
+msgid "Address Verification Result"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1299
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1868
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2091
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2812
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3249
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3320
+msgid "Card Security Code Result"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1308
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1877
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2100
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2821
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3258
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3329
+msgid "Processor response code Result"
+msgstr ""
+
+#. Translators: %1$s is the payment method title, %2$s is the payment status.
+#. Translators: %1$s is the payment method title, %2$s is the formatted payment status.
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1343
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1908
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2879
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3290
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3361
+msgid "Payment via %1$s: %2$s."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1350
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1886
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2116
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2830
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3276
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3347
+msgid "Payment Advice Codes Result"
+msgstr ""
+
+#. Translators: %s is the payment method title.
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1375
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1911
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1940
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2529
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2613
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2884
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3293
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3364
+msgid "Payment via %s declined."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1377
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1912
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1941
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2886
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3295
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3366
+msgid "Unfortunately your order cannot be processed as the originating bank/merchant has declined your transaction. Please attempt your purchase again."
+msgstr ""
+
+#. Translators: %1$s is the payment method title, %2$s is the capture transaction ID.
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1391
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2136
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2866
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3305
+msgid "%1$s Capture Transaction ID: %2$s"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1403
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1952
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2475
+msgid "This payment was unable to be processed successfully. Please try again with another payment method."
+msgstr ""
+
+#. Translators: %1$s is the refunded amount with currency, %2$s is the refund transaction ID.
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1738
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:4774
+msgid "Refunded %1$s - Refund ID: %2$s"
+msgstr ""
+
+#. Translators: %1$s is the payment method title, %2$s is the pending reason text.
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1745
+msgid "Payment via %1$s Pending. Pending reason: %2$s."
+msgstr ""
+
+#. Translators: %1$s is the refunded amount with currency, %2$s is the refund transaction ID.
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1748
+msgid "Refund Amount %1$s - Refund ID: %2$s"
+msgstr ""
+
+#. Translators: %1$s is the payment method title, %2$s is the authorization transaction ID.
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1924
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2152
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3378
+msgid "%1$s Authorization Transaction ID: %2$s"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1931
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3386
+msgid "Payment authorized. Change payment status to processing or complete to capture funds."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:1936
+msgid "Processor authorization status: "
+msgstr ""
+
+#. Translators: %1$s is the payment method title, %2$s is the payment status.
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2130
+msgid "Payment via %1$s: %2$s ."
+msgstr ""
+
+#. Translators: %1$s is the payment method title, %2$s is the PayPal pending reason.
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2145
+msgid "Payment via %1$s Pending. PayPal reason: %2$s."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2159
+msgid "Payment authorized. Change order status to processing or complete for capture funds."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2494
+msgid "Action: "
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2497
+msgid "Error: "
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2500
+msgid "Order ID: "
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2504
+msgid "User ID: "
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2505
+msgid "User Email: "
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2507
+msgid "User IP: "
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2534
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2617
+msgid "BUYER_COMPLAINT: The payer initiated a dispute for this captured payment with PayPal."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2537
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2620
+msgid "CHARGEBACK: The captured funds were reversed in response to the payer disputing this captured payment with the issuer of the financial instrument used to pay for this captured payment."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2540
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2623
+msgid "ECHECK: The payer paid by an eCheck that has not yet cleared."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2543
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2626
+msgid "INTERNATIONAL_WITHDRAWAL: Visit your online account. In your **Account Overview**, accept and deny this payment."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2546
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2629
+msgid "No additional specific reason can be provided. For more information about this captured payment, visit your account online or contact PayPal."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2549
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2632
+msgid "PENDING_REVIEW: The captured payment is pending manual review."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2552
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2635
+msgid "RECEIVING_PREFERENCE_MANDATES_MANUAL_ACTION: The payee has not yet set up appropriate receiving preferences for their account. For more information about how to accept or deny this payment, visit your account online. This reason is typically offered in scenarios such as when the currency of the captured payment is different from the primary holding currency of the payee."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2555
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2638
+msgid "REFUNDED: The captured funds were refunded."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2558
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2641
+msgid "TRANSACTION_APPROVED_AWAITING_FUNDING: The payer must send the funds for this captured payment. This code generally appears for manual EFTs."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2561
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2644
+msgid "UNILATERAL: The payee does not have a PayPal account."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2564
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2647
+msgid "VERIFICATION_REQUIRED: The payee's PayPal account is not verified."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2568
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2651
+msgid "No pending reason provided."
+msgstr ""
+
+#. Translators: %1$s is the payment method title, %2$s is the PayPal pending reason text.
+#. Translators: %1$s is the payment method title, %2$s is the PayPal pending reason.
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2573
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2656
+msgid "Payment via %1$s Pending. PayPal Pending reason: %2$s."
+msgstr ""
+
+#. Translators: %1$s is the payment method title, %2$s is the PayPal declined reason text.
+#. Translators: %1$s is the payment method title, %2$s is the PayPal declined reason.
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2577
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2660
+msgid "Payment via %1$s declined. PayPal declined reason: %2$s."
+msgstr ""
+
+#. Translators: %1$s is the payment method title, %2$s is the PayPal refund reason.
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2583
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2665
+msgid "Payment via %1$s partially refunded. PayPal reason: %2$s."
+msgstr ""
+
+#. Translators: %1$s is the payment method title, %2$s is the PayPal refund reason.
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2588
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2668
+msgid "Payment via %1$s refunded. PayPal reason: %2$s."
+msgstr ""
+
+#. Translators: %1$s is the payment method title, %2$s is the PayPal failure reason.
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2592
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2671
+msgid "Payment via %1$s failed. PayPal reason: %2$s."
+msgstr ""
+
+#. Translators: %s is the payment method title.
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:2596
+msgid "Payment via %s Voided."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3618
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:4353
+#: ppcp-gateway/subscriptions/class-wc-gateway-ppcp-goopter-subscriptions-helper.php:111
+#: ppcp-gateway/subscriptions/class-wc-gateway-ppcp-goopter-subscriptions-helper.php:139
+#: ppcp-gateway/subscriptions/class-wc-gateway-ppcp-goopter-subscriptions-helper.php:167
+msgid "Invalid or missing payment token fields."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3694
+msgid "Payment method successfully added."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3696
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3709
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3843
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3860
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3941
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3957
+msgid "Unable to add payment method to your account."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3699
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3846
+msgid "Payment method already exist in your account."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:3841
+msgid "Payment method has been added successfully."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-payment.php:4217
+msgid "Unable to change payment method."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-product.php:95
+msgid "Please choose the quantity of items you wish to add to your cart&hellip;"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-product.php:103
+msgid "Please choose a product to add to your cart&hellip;"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-product.php:156
+msgid "Please choose product options&hellip;"
+msgstr ""
+
+#. Translators: %s is the attribute label.
+#: ppcp-gateway/class-goopter-paypal-ppcp-product.php:173
+msgid "Invalid value posted for %s"
+msgstr ""
+
+#. Translators: %s is the list of missing required fields.
+#: ppcp-gateway/class-goopter-paypal-ppcp-product.php:181
+msgid "%s is a required field"
+msgid_plural "%s are required fields"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-seller-onboarding.php:146
+#: ppcp-gateway/class-goopter-paypal-ppcp-seller-onboarding.php:175
+#: ppcp-gateway/class-goopter-paypal-ppcp-seller-onboarding.php:195
+#: ppcp-gateway/class-goopter-paypal-ppcp-seller-onboarding.php:215
+msgid "Return to your shop."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-smart-button.php:134
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:43
+msgid "Complete Order Payment"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-smart-button.php:135
+msgid "<strong>You're almost done!</strong><br>Review your information before you place your order."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-smart-button.php:858
+msgid "OR"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-smart-button.php:939
+#: ppcp-gateway/goopter-paypal-ppcp-common-functions.php:473
+msgid "PayPal Checkout"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-smart-button.php:1100
+msgid "Billing &amp; Shipping"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-smart-button.php:1104
+#: template/ppcp-funnelkit-order-review.php:167
+msgid "Billing details"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-smart-button.php:1132
+#: template/ppcp-funnelkit-order-review.php:206
+msgid "Shipping details"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-smart-button.php:1150
+msgid "Create an account?"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-smart-button.php:1159
+msgid "Create an account by entering the information below. If you are a returning customer please login at the top of the page."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-smart-button.php:1500
+msgid "Cancel order"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-smart-button.php:1762
+msgid "Payment method:"
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-smart-button.php:2085
+msgid "Invalid payment method."
+msgstr ""
+
+#: ppcp-gateway/class-goopter-paypal-ppcp-smart-button.php:2091
+msgid "Payment method deleted."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-apple-pay-goopter.php:40
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1849
+msgid "Accept payments using Apple Pay."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-apple-pay-goopter.php:118
+msgid "Default Apple Pay description"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-base-goopter.php:84
+#: ppcp-gateway/class-wc-gateway-direct-payment-goopter.php:67
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:539
+msgid "Invalid refund amount"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-base-goopter.php:92
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:547
+msgid "No Capture transactions available for refund."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-base-goopter.php:111
+#: ppcp-gateway/class-wc-gateway-direct-payment-goopter.php:79
+#: ppcp-gateway/class-wc-gateway-direct-payment-goopter.php:82
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:566
+msgid "Refund failed."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-cc-goopter.php:32
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:438
+msgid "Accept PayPal, PayPal Credit and alternative payment types."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-cc-goopter.php:37
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2105
+msgid "Debit or Credit Card"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-cc-goopter.php:107
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:284
+msgctxt "Name of credit card"
+msgid "Visa"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-cc-goopter.php:112
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:285
+msgctxt "Name of credit card"
+msgid "Mastercard"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-cc-goopter.php:117
+msgctxt "Name of credit card"
+msgid "Maestro"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-cc-goopter.php:122
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:286
+msgctxt "Name of credit card"
+msgid "American Express"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-cc-goopter.php:127
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:287
+msgctxt "Name of credit card"
+msgid "Discover"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-cc-goopter.php:132
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:288
+msgctxt "Name of credit card"
+msgid "JCB"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-cc-goopter.php:137
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:289
+msgctxt "Name of credit card"
+msgid "Elo"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-cc-goopter.php:142
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:290
+msgctxt "Name of credit card"
+msgid "Hiper"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-cc-goopter.php:408
+msgid "Card code"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-cc-goopter.php:409
+#: ppcp-gateway/js/wc-goopter-common-functions.js:871
+msgid "CVC"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-cc-goopter.php:414
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:231
+msgid "Card number"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-cc-goopter.php:418
+msgid "Expiry (MM/YY)"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-cc-goopter.php:419
+#: ppcp-gateway/js/wc-goopter-common-functions.js:870
+msgid "MM / YY"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-cc-goopter.php:450
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:756
+msgid "Save payment method to my account."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-direct-payment-goopter.php:45
+msgid "Failed to get payment token. Please try again later."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-direct-payment-goopter.php:46
+msgid "Failed to get payment token."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-direct-payment-goopter.php:59
+msgid "An error has occurred; Please try again later."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-google-pay-goopter.php:40
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1896
+msgid "Accept payments using Google Pay."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-google-pay-goopter.php:94
+msgid "Default Google Pay description"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:95
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:431
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1089
+msgid "PayPal"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:96
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:58
+msgid "The easiest one-stop solution for accepting PayPal, Venmo, Debit/Credit Cards with cheaper fees than other processors!"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:281
+msgid "Authorize"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:302
+msgid "Default Height (Recommended)"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:305
+msgid "Default Width (Recommended)"
+msgstr ""
+
+#. translators: %s is replaced with the button height in pixels.
+#. translators: %s is replaced with the button width in pixels.
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:310
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:315
+msgid "%s px"
+msgstr ""
+
+#. Translators: %s is the URL to the PayPal Connect screen in the WordPress admin.
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:348
+msgid "The Advanced Credit Cards feature is not yet active on your PayPal account. Please <a href=\"%s\">return to the PayPal Connect screen</a> to apply for this feature and get cheaper rates."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:352
+msgid "Allow buyers to securely save payment details to their account. This enables features like Subscriptions, Auto-Ship, and token payments of any kind."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:356
+msgid "The Vault functionality required for this feature is not enabled on your PayPal account."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:363
+msgid "The Vault / Subscriptions feature is enabled on your PayPal account.  You need to enable Tokenized Payments here in order this to be available on your site."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:366
+msgid "Allow buyers to pay using Apple Pay."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:370
+msgid "Apple Pay is not enabled on your PayPal account."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:376
+msgid "Apple Pay feature is enabled on your PayPal account."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:381
+msgid "Allow buyers to pay using Google Pay."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:385
+msgid "Google Pay is not enabled on your PayPal account."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:391
+msgid "Google Pay feature is enabled on your PayPal account."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:395
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:686
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:907
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1136
+msgid "Plain (Recommended)"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:396
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:688
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:909
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1138
+msgid "Buy"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:397
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:690
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:911
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1140
+msgid "Donate"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:398
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:687
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:908
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1137
+msgid "Book"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:399
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:640
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:689
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:861
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:910
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1090
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1139
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1297
+msgid "Checkout"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:400
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:693
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:914
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1143
+msgid "Subscribe"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:401
+msgid "Contribute"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:402
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:691
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:912
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1141
+msgid "Order"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:403
+msgid "Reload"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:404
+msgid "Rent"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:405
+msgid "Support"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:406
+msgid "Tip"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:407
+msgid "Top Up"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:408
+msgid "Continue"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:411
+msgid "Authorize / Capture"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:413
+msgid "PayPal Vault (Recommended)"
+msgstr ""
+
+#. translators: %s is replaced with the GOOPTER_PPCP_NAME constant.
+#. translators: %s is replaced with the site's name retrieved using get_bloginfo('name').
+#. Translators: %s is the name of the PayPal solution (e.g., PayPal Advanced).
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:423
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2041
+#: template/admin.php:23
+msgid "%s"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:428
+msgid "Title"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:430
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1841
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1888
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1934
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2104
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:435
+msgid "Description"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:437
+msgid "Payment method description that the customer will see on your checkout."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:442
+msgid "PayPal Account Settings"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:448
+msgid "PayPal Sandbox"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:450
+msgid "Enable PayPal Sandbox"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:452
+msgid "Check this box to enable test mode so that all transactions will hit PayPal’s sandbox server instead of the live server. This should only be used during development as no real transactions will occur when this is enabled."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:456
+msgid "Connect to PayPal"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:460
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:475
+msgid "Setup or link an existing PayPal account."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:464
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:479
+msgid "PayPal Connection"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:467
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:482
+msgid "Click to reset current credentials and use another account."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:471
+msgid "Connect to PayPal Sandbox"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:486
+msgid "PayPal Client ID"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:488
+msgid "Enter your PayPal Client ID."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:493
+msgid "PayPal Secret"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:495
+msgid "Enter your PayPal Secret."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:500
+msgid "Live Merchant ID"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:508
+msgid "Sandbox Client ID"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:510
+msgid "Enter your PayPal Sandbox Client ID."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:515
+msgid "Sandbox Secret"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:517
+msgid "Enter your PayPal Sandbox Secret."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:522
+msgid "Sandbox Merchant ID"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:530
+msgid "Product Page Settings"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:531
+msgid "Enable the Product specific button settings, and the options set will be applied to the PayPal Smart buttons on your Product pages."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:539
+msgid "Enable PayPal Smart Button on the Product Pages."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:546
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:767
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:996
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1203
+msgid "Hide Funding Method(s)"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:549
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:770
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:999
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1206
+msgid "Funding methods selected here will be hidden from buyers during checkout."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:553
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:774
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1003
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1210
+#: ppcp-gateway/goopter-paypal-ppcp-common-functions.php:459
+msgid "Credit or Debit Card"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:554
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:775
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1004
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1211
+#: ppcp-gateway/goopter-paypal-ppcp-common-functions.php:460
+msgid "PayPal Credit"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:555
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:776
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1005
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1212
+msgid "Pay Later"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:556
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:777
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1006
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1213
+#: ppcp-gateway/goopter-paypal-ppcp-common-functions.php:461
+msgid "Bancontact"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:557
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:778
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1007
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1214
+#: ppcp-gateway/goopter-paypal-ppcp-common-functions.php:462
+msgid "BLIK"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:558
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:779
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1008
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1215
+#: ppcp-gateway/goopter-paypal-ppcp-common-functions.php:463
+msgid "eps"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:559
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:780
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1009
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1216
+#: ppcp-gateway/goopter-paypal-ppcp-common-functions.php:464
+msgid "giropay"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:560
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:781
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1010
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1217
+#: ppcp-gateway/goopter-paypal-ppcp-common-functions.php:465
+msgid "iDEAL"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:561
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:782
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1011
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1218
+#: ppcp-gateway/goopter-paypal-ppcp-common-functions.php:466
+msgid "Mercado Pago"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:562
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:783
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1012
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1219
+#: ppcp-gateway/goopter-paypal-ppcp-common-functions.php:467
+msgid "MyBank"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:563
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:784
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1013
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1220
+#: ppcp-gateway/goopter-paypal-ppcp-common-functions.php:468
+msgid "Przelewy24"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:564
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:785
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1014
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1221
+#: ppcp-gateway/goopter-paypal-ppcp-common-functions.php:469
+msgid "SEPA-Lastschrift"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:565
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:786
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1015
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1222
+#: ppcp-gateway/goopter-paypal-ppcp-common-functions.php:470
+msgid "Sofort"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:566
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:787
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1016
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1223
+#: ppcp-gateway/goopter-paypal-ppcp-common-functions.php:471
+msgid "Venmo"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:570
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:791
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1020
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1227
+msgid "Button Layout"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:573
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:794
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1023
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1230
+msgid "Select Vertical for stacked buttons, and Horizontal for side-by-side buttons."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:577
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:798
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1027
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1234
+msgid "Vertical (Recommended)"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:578
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:799
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1028
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1235
+msgid "Horizontal"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:582
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:803
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1032
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1239
+msgid "Button Color"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:585
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:806
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1035
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1242
+msgid "Set the color you would like to use for the PayPal button."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:589
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:810
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1039
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1246
+msgid "Gold (Recommended)"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:590
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:811
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1040
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1247
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1399
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1492
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1585
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1678
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1771
+msgid "Blue"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:591
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:812
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1041
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1248
+msgid "Silver"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:592
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:675
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:714
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:813
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:896
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:935
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1042
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1125
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1164
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1249
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1389
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1399
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1482
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1492
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1575
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1585
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1668
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1678
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1761
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1771
+msgid "White"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:593
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:674
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:814
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:895
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1043
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1124
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1250
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1389
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1399
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1482
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1492
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1575
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1585
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1668
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1678
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1761
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1771
+msgid "Black"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:597
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:818
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1047
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1254
+msgid "Button Shape"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:600
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:821
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1050
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1257
+msgid "Set the shape you would like to use for the buttons."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:604
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:825
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1054
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1261
+msgid "Rect (Recommended)"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:605
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:826
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1055
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1262
+msgid "Pill"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:609
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:830
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1059
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1266
+msgid "Button Size"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:612
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:833
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1062
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1269
+msgid "Set the size of the buttons you would like displayed. Responsive will fit to the current element on the page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:616
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:837
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1066
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1273
+msgid "Small"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:617
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:838
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1067
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1274
+msgid "Medium"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:618
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:839
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1068
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1275
+msgid "Large"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:619
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:840
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1069
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1276
+msgid "Responsive (Recommended)"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:623
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:844
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1073
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1280
+msgid "Button Height"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:626
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:847
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1076
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1283
+msgid "Set the height of the buttons you would like displayed."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:632
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:853
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1082
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1289
+msgid "Button Label"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:635
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:856
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1085
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1292
+msgid "Set the label type you would like to use for the PayPal button."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:639
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:860
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1296
+msgid "PayPal (Recommended)"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:641
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:862
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1091
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1298
+msgid "Buy Now"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:642
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:692
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:863
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:913
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1092
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1142
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1299
+msgid "Pay"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:646
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:867
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1096
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1303
+msgid "Tagline"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:650
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:871
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1100
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1307
+msgid "Enable tagline"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:652
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:873
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1102
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1309
+msgid "Add the tagline. This line will only show up, if you select a horizontal layout."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:657
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:878
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1107
+msgid "Buttons Width"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:660
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:881
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1110
+msgid "Set the width of the buttons (e.g. PayPal, Apple Pay, Google Pay) you would like displayed."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:666
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:887
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1116
+msgid "Google Pay Button Color"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:669
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:682
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:890
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:903
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1119
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1132
+msgid "Set the color you would like to use for the Google Pay button."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:673
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:894
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1123
+msgid "Default (Recommended)"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:679
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:900
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1129
+msgid "Google Pay Button Type"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:697
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:918
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1147
+msgid "Google Pay Button Height"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:700
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:921
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1150
+msgid "Set the height of the Google Pay button you would like displayed."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:706
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:927
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1156
+msgid "Apple Pay Button Color"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:709
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:722
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:930
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:943
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1159
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1172
+msgid "Set the color you would like to use for the Apple Pay button."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:713
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:934
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1163
+msgid "Black (Recommended)"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:715
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:936
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1165
+msgid "White Outline"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:719
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:940
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1169
+msgid "Apple Pay Button Type"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:728
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:949
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1178
+msgid "Apple Pay Button Height"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:731
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:952
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1181
+msgid "Set the height of the Apple Pay button you would like displayed."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:737
+msgid "Cart Page Settings"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:738
+msgid "Enable the Cart specific button settings, and the options set will be applied to the PayPal buttons on your Cart page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:746
+msgid "Enable PayPal Smart Button on the Cart page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:753
+msgid "Cart Button Position"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:754
+msgid "Where to display PayPal Smart button(s)."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:755
+msgid "Set where to display the PayPal Smart button(s)."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:958
+msgid "Checkout Page Settings"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:959
+msgid "Enable the checkout specific button settings, and the options set will be applied to the PayPal buttons on your checkout page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:967
+msgid "Enable PayPal Payments on the Checkout page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:970
+msgid "if this option is disable, PayPal will be not display in checkout page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:973
+msgid "Checkout Page Display"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:976
+msgid "Display at the top of the checkout page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:977
+msgid "Display in general list of enabled gateways on checkout page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:978
+msgid "Display both at the top and in the general list of gateways on the checkout page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:981
+msgid "Displaying the checkout button at the top of the checkout page will allow users to skip filling out the forms and can potentially increase conversion rates."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:989
+msgid "Disable smart buttons in the regular list of payment gateways."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1187
+msgid "Mini Cart Page Settings"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1188
+msgid "Enable the Mini Cart specific button settings, and the options set will be applied to the PayPal buttons on your Mini Cart page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1196
+msgid "Enable PayPal Smart Button on the Mini Cart page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1314
+msgid "Pay Later Messaging Settings"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1321
+msgid "Enable Pay Later Messaging"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1327
+msgid "Page Type"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1332
+msgid "Home"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1332
+msgid "Category"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1332
+#: template/wc-admin/html-order-items.php:417
+msgid "Product"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1332
+msgid "Cart"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1332
+msgid "Payment"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1336
+msgid "Home Page"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1338
+msgid "Customize the appearance of <a target=\"_blank\" href=\"https://www.paypal.com/us/business/buy-now-pay-later\">Pay Later Messaging</a> on the Home page to promote special financing offers which help increase sales."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1342
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1435
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1528
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1621
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1714
+msgid "Layout Type"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1349
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1442
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1535
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1628
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1721
+msgid "Text Layout"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1349
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1442
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1535
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1628
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1721
+msgid "Flex Layout"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1352
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1445
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1538
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1631
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1724
+msgid "Logo Type"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1359
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1452
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1545
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1638
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1731
+msgid "Primary"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1359
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1452
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1545
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1638
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1731
+msgid "Alternative"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1359
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1452
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1545
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1638
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1731
+msgid "Inline"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1359
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1452
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1545
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1638
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1731
+msgid "None"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1362
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1455
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1548
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1641
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1734
+msgid "Logo Position"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1369
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1462
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1555
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1648
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1741
+msgid "Left"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1369
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1462
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1555
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1648
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1741
+msgid "Right"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1369
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1462
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1555
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1648
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1741
+msgid "Top"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1372
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1465
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1558
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1651
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1744
+msgid "Text Size"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1379
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1472
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1565
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1658
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1751
+msgid "10 px"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1379
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1472
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1565
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1658
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1751
+msgid "11 px"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1379
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1472
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1565
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1658
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1751
+msgid "12 px"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1379
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1472
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1565
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1658
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1751
+msgid "13 px"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1379
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1472
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1565
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1658
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1751
+msgid "14 px"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1379
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1472
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1565
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1658
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1751
+msgid "15 px"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1379
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1472
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1565
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1658
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1751
+msgid "16 px"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1382
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1475
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1568
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1661
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1754
+msgid "Text Color"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1389
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1399
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1482
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1492
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1575
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1585
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1668
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1678
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1761
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1771
+msgid "Monochrome"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1389
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1399
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1482
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1492
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1575
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1585
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1668
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1678
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1761
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1771
+msgid "Grayscale"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1392
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1485
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1578
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1671
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1764
+msgid "Color"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1399
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1492
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1585
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1678
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1771
+msgid "White (No Border)"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1399
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1492
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1585
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1678
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1771
+msgid "Gray"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1402
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1495
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1588
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1681
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1774
+msgid "Ratio"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1409
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1502
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1595
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1688
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1781
+msgid "Flexes between 120px and 300px wide"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1409
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1502
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1595
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1688
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1781
+msgid "160px wide"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1409
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1502
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1595
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1688
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1781
+msgid "Flexes between 250px and 768px wide"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1409
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1502
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1595
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1688
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1781
+msgid "Flexes between 250px and 1169px wide"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1413
+msgid "I need a shortcode so that I can place the message in a better spot on Home page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1420
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1513
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1606
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1699
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1792
+msgid "Shortcode"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1429
+msgid "Category Page"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1430
+msgid "Customize the appearance of <a target=\"_blank\" href=\"https://www.paypal.com/us/business/buy-now-pay-later\">Pay Later Messaging</a> on the Category page to promote special financing offers which help increase sales."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1506
+msgid "I need a shortcode so that I can place the message in a better spot on category page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1522
+msgid "Product Page"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1523
+msgid "Customize the appearance of <a target=\"_blank\" href=\"https://www.paypal.com/us/business/buy-now-pay-later\">Pay Later Messaging</a> on the Product page to promote special financing offers which help increase sales."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1599
+msgid "I need a shortcode so that I can place the message in a better spot on product page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1615
+msgid "Cart Page"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1616
+msgid "Customize the appearance of <a target=\"_blank\" href=\"https://www.paypal.com/us/business/buy-now-pay-later\">Pay Later Messaging</a> on the Cart page to promote special financing offers which help increase sales."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1692
+msgid "I need a shortcode so that I can place the message in a better spot on cart page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1708
+msgid "Payment Page"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1709
+msgid "Customize the appearance of <a target=\"_blank\" href=\"https://www.paypal.com/us/business/buy-now-pay-later\">Pay Later Messaging</a> on the Payment page to promote special financing offers which help increase sales."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1785
+msgid "I need a shortcode so that I can place the message in a better spot on payment page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1801
+msgid "Tokenization / Subscriptions"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1807
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1808
+msgid "Enable Tokenized Payments"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1819
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1842
+#: ppcp-gateway/goopter-paypal-ppcp-common-functions.php:474
+msgid "Apple Pay"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1825
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1826
+msgid "Enable Apple Pay"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1839
+msgid "Apple Pay Title"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1846
+msgid "Apple Pay Payment Description"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1848
+msgid "This controls the description which the user sees when they select Apple Pay payment method during checkout."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1853
+msgid "Apple Pay Billing Agreement Title"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1855
+msgid "A description of the recurring payment that Apple Pay displays to the user in the payment sheet."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1856
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1863
+msgid "Billing Agreement"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1860
+msgid "Apple Pay Billing Agreement Description"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1862
+msgid "A localized billing agreement that the payment sheet displays to the user before the user authorizes the payment."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1867
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1889
+#: ppcp-gateway/goopter-paypal-ppcp-common-functions.php:475
+msgid "Google Pay"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1872
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1873
+msgid "Enable Google Pay"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1886
+msgid "Google Pay Title"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1893
+msgid "Google Pay Payment Description"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1895
+msgid "This controls the description which the user sees when they select Google Pay payment method during checkout."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1900
+msgid "WooCommerce Pre-Orders Settings"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1906
+msgid "Pre-Orders Payment Mode"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1909
+msgid "Choose whether you wish to Auth/capture OR PayPal Vault."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1915
+msgid "Clover Pay"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1920
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1921
+msgid "Enable Clover Pay"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1932
+msgid "Clover Pay Title"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1935
+msgid "Credit Card / Apple Pay / Google Pay"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1940
+msgid "Clover Pay Description"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1942
+msgid "This controls the description which the user sees when they select Goopter Direct Pay payment method during checkout."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1943
+msgid "Accept payments using Credit Card / Apple Pay / Google Pay."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1948
+msgid "Clover Pay Sandbox"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1949
+msgid "Enable Clover Pay Sandbox"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1955
+msgid "Clover Merchant ID"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1961
+msgid "Goopter Soft Descriptor"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1967
+msgid "Goopter Webhook Secret Key"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1973
+msgid "Advanced Settings"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1982
+msgid "Choose whether you wish to capture funds immediately or authorize payment only."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1988
+msgid "Automatic Capture of Pending Authorizations"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1990
+msgid "Automatically capture a pending authorization when the order status is updated to Processing or Completed."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1997
+msgid "Order Status"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:1998
+msgid "Select the status you wish to apply after the successful order. The default setting adheres to WooCommerce rules for order status."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2006
+msgid "Invoice Prefix"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2008
+msgid "Please enter a prefix for your invoice numbers. If you use your PayPal account for multiple stores ensure this prefix is unique as PayPal will not allow orders with the same invoice number."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2013
+msgid "Skip Final Review"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2014
+msgid "Enables the option to skip the final review page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2015
+msgid "By default, users will be returned from PayPal and presented with a final review page which includes shipping and tax in the order details. Enable this option to eliminate this page in the checkout process.  This only applies when the WooCommerce checkout page is skipped.  If the WooCommerce checkout page is used, the final review page will always be skipped."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2020
+msgid "Coupon Codes"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2022
+msgid "Enable the use of coupon codes on the final review page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2027
+msgid "Disable Terms and Conditions"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2028
+msgid "Disable Terms and Conditions for Express Checkout orders."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2029
+msgid "By default, if a Terms and Conditions page is set in WooCommerce, this would require the review page and would override the Skip Final Review option.  Check this option to disable Terms and Conditions for Express Checkout orders only so that you can use the Skip Final Review option."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2035
+msgid "Brand Name"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2037
+msgid "This controls what users see as the brand / company name on PayPal review pages."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2046
+msgid "Landing Page"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2049
+msgid "The type of landing page to show on the PayPal site for customer checkout. PayPal Account Optional must be checked for this option to be used."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2050
+msgid "Login"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2051
+msgid "Billing"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2052
+msgid "No Preference"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2057
+msgid "Instant Payments "
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2061
+msgid "If you enable this setting, PayPal will be instructed not to allow the buyer to use funding sources that take additional time to complete (for example, eChecks). Instead, the buyer will be required to use an instant funding source, such as an instant transfer, a credit/debit card, or PayPal Credit."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2064
+msgid "Require Instant Payment"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2067
+#: template/ppcp-funnelkit-order-review.php:241
+msgid "Billing Address"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2068
+msgid "Set billing address in WooCommerce using the address returned by PayPal."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2069
+msgid "This does not apply when a billing address is provided by WooCommerce through the checkout page or from a logged in user profile."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2075
+msgid "Send Item Details"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2076
+msgid "Send line item details to PayPal"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2078
+msgid "Include all line item details in the payment request to PayPal so that they can be seen from the PayPal transaction details page."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2082
+msgid "Advanced Credit Cards"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2084
+msgid "Enable advanced credit and debit card payments."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2090
+msgid "Contingency for 3D Secure"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2094
+msgid "3D Secure when required"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2095
+msgid "Always trigger 3D Secure"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2099
+msgid "3D Secure benefits cardholders and merchants by providing an additional layer of verification using Verified by Visa, MasterCard SecureCode and American Express SafeKey."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2102
+msgid "Advanced Credit Cards Title"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2110
+msgid "Advanced Credit Cards Position"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2114
+msgid "Before PayPal Smart Button"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2115
+msgid "After PayPal Smart Button"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2119
+msgid "This controls the gateway position which the user sees during checkout."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2122
+msgid "Disable specific credit cards"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2127
+msgid "By default all possible credit cards will be accepted. You can disable some cards, if you wish."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2134
+msgid "Card Text Size"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2139
+msgid "Choose the font size for the field."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2143
+msgid "Card Text Color"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2152
+msgid "Card Text Style"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2159
+msgid "Normal"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2159
+msgid "Italic"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2159
+msgid "Inherit"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2159
+msgid "Revert"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2162
+msgid "Card Text Weight"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2169
+msgid "Default"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2169
+msgid "100"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2169
+msgid "200"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2169
+msgid "300"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2169
+msgid "400"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2169
+msgid "500"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2169
+msgid "600"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2169
+msgid "Bold"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2172
+msgid "Card Text Padding"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2182
+msgid "Credit Card Statement Name"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2184
+msgid "The value entered here will be displayed on the buyer's credit card statement."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2190
+msgid "Error Email Notifications"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2192
+msgid "Enable admin email notifications for errors."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2194
+msgid "This will send a detailed error email to the WordPress site administrator if a PayPal API error occurs."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2198
+msgid "Debug log"
+msgstr ""
+
+#. Translators: %s is the file path where PayPal events are logged, wrapped in <code> tags.
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2202
+msgid "Log PayPal events, such as Payment, Refund inside %s Note: this may log personal information. We recommend using this for debugging purposes only and deleting the logs when finished."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2204
+msgid "Everything"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2205
+msgid "Errors and Warnings Only"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter-settings.php:2206
+msgid "Disabled"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:226
+msgid "Card Security Code"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:235
+msgid "Expiration Date"
+msgstr ""
+
+#. Translators: %s is the name of the PayPal service (e.g., PayPal Advanced).
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:311
+msgid "Congratulations, %s is Connected!"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:314
+msgid "Disconnect"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:338
+msgid "Go To Setup"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:599
+msgid "This represents the fee PayPal collects for the transaction."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:600
+msgid "PayPal Fee:"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:618
+msgid "Your PayPal account has been connected successfully and you are ready to rock!"
+msgstr ""
+
+#. Translators: %1$s is the PayPal service name, %2$s is the URL to connect the account.
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:667
+msgid "%1$s is almost ready. To get started, <a href=\"%2$s\">connect your account</a>."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:826
+msgid "Vault is Connected!"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:840
+msgid "Activate PayPal Vault"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:928
+msgid "Apple Pay is connected!"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:929
+msgid "Register your domain to activate Apple Pay."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:935
+msgid "Apple Pay is currently available in the following countries: AU, AT, BE, BG, CA, CY, CZ, DK, EE, FI, FR, DE, GR, HU, IE, IT, LV, LI, LT, LU, MT, NL, NO, PL, PT, RO, SK, SI, ES, SE, US, GB. PayPal is working to expand this availability to additional countries as quickly as possible."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:944
+msgid "Manage Apple Pay Domains"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:958
+msgid "Activate Apple Pay"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:1027
+msgid "Google Pay is connected!"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:1030
+msgid "Google Pay is currently available in the following countries: AU, AT, BE, BG, CA, CY, CZ, DK, EE, FI, FR, DE, GR, HU, IE, IT, LV, LI, LT, LU, MT, NL, NO, PL, PT, RO, SK, SI, ES, SE, US, GB. PayPal is working to expand this availability to additional countries as quickly as possible."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:1047
+msgid "Activate Google Pay"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:1113
+msgid "Clover Pay is connected!"
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:1160
+msgid "Note: You will need to activate Tokenization in settings to enable Subscription functionality."
+msgstr ""
+
+#: ppcp-gateway/class-wc-gateway-ppcp-goopter.php:1160
+msgid "Yes"
+msgstr ""
+
+#: ppcp-gateway/goopter-paypal-ppcp-common-functions.php:472
+msgid "PayPal Pay Later"
+msgstr ""
+
+#: ppcp-gateway/pre-order/trait-wc-ppcp-pre-orders.php:84
+msgid "Unable to store payment details. Please try again."
+msgstr ""
+
+#. translators: %s: Customer billing full name
+#: template/emails/goopter-admin-new-partial-paid-order.php:26
+#: template/emails/plain/goopter-admin-new-partial-paid-order.php:25
+msgid "You’ve received the following order from %s:"
+msgstr ""
+
+#. Translators: %s is the billing first name of the customer.
+#: template/emails/goopter-customer-partial-paid-order.php:12
+#: template/emails/plain/goopter-customer-partial-paid-order.php:10
+msgid "Hi %s,"
+msgstr ""
+
+#. Translators: %s is the order number.
+#: template/emails/goopter-customer-partial-paid-order.php:15
+#: template/emails/plain/goopter-customer-partial-paid-order.php:13
+msgid "Just to let you know &mdash; we've received your order #%s, and it is now being processed:"
+msgstr ""
+
+#. Translators: %1$s is the credit card brand, %2$s is the last four digits of the credit card number.
+#: template/myaccount/payment-methods.php:33
+msgid "%1$s ending in %2$s"
+msgstr ""
+
+#: template/myaccount/payment-methods.php:108
+msgid "No saved methods found."
+msgstr ""
+
+#: template/myaccount/payment-methods.php:115
+msgid "Add payment method"
+msgstr ""
+
+#: template/ppcp-funnelkit-order-review.php:31
+msgid "You must be logged in to checkout."
+msgstr ""
+
+#: template/ppcp-funnelkit-order-review.php:159
+msgid "Confirm your PayPal order"
+msgstr ""
+
+#: template/ppcp-funnelkit-order-review.php:174
+#: template/ppcp-funnelkit-order-review.php:210
+msgid "Address"
+msgstr ""
+
+#: template/ppcp-funnelkit-order-review.php:273
+msgid "Shipping Address"
+msgstr ""
+
+#: template/ppcp_account_request_form.php:28
+msgid "Return"
+msgstr ""
+
+#: template/ppcp_account_request_form.php:31
+msgid "PPCP Account Request"
+msgstr ""
+
+#: template/ppcp_account_request_form.php:35
+msgid "Close"
+msgstr ""
+
+#: template/wc-admin/html-order-item.php:26
+msgid "SKU:"
+msgstr ""
+
+#: template/wc-admin/html-order-item.php:30
+msgid "Variation ID:"
+msgstr ""
+
+#. translators: %s: variation id
+#: template/wc-admin/html-order-item.php:35
+msgid "%s (No longer exists)"
+msgstr ""
+
+#. translators: %s: discount amount
+#: template/wc-admin/html-order-item.php:111
+msgid "%s discount"
+msgstr ""
+
+#: template/wc-admin/html-order-item.php:124
+#: template/wc-admin/html-order-item.php:167
+msgid "Before discount"
+msgstr ""
+
+#: template/wc-admin/html-order-item.php:128
+#: template/wc-admin/html-order-item.php:171
+#: template/wc-admin/html-order-items.php:44
+msgid "Total"
+msgstr ""
+
+#: template/wc-admin/html-order-item.php:129
+msgid "After pre-tax discounts."
+msgstr ""
+
+#: template/wc-admin/html-order-item.php:187
+msgid "Edit item"
+msgstr ""
+
+#: template/wc-admin/html-order-item.php:187
+msgid "Delete item"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:40
+msgid "Item"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:42
+msgid "Cost"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:43
+msgid "Qty"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:49
+#: template/wc-admin/html-order-items.php:50
+msgid "Tax"
+msgstr ""
+
+#. translators: %1$s: tax item name %2$s: tax class name
+#: template/wc-admin/html-order-items.php:52
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:116
+msgid "Coupon(s)"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:166
+msgid "Items Subtotal:"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:174
+msgid "Coupon(s):"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:183
+msgid "Fees:"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:195
+msgid "Shipping:"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:223
+msgid "Order Total"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:238
+msgid "Paid"
+msgstr ""
+
+#. translators: 1: payment date. 2: payment method
+#: template/wc-admin/html-order-items.php:250
+msgid "%1$s via %2$s"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:268
+msgid "Refunded"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:276
+msgid "Net Payment"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:297
+msgid "Add item(s)"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:299
+msgid "Apply coupon"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:302
+msgid "To edit this order change the status back to \"Pending payment\""
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:302
+msgid "This order is no longer editable."
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:312
+msgid "Recalculate"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:317
+msgid "Add product(s)"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:318
+msgid "Add fee"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:319
+msgid "Add shipping"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:321
+#: template/wc-admin/html-order-items.php:522
+msgid "Add tax"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:327
+#: template/wc-admin/html-order-items.php:393
+msgid "Cancel"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:328
+msgid "Save"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:335
+msgid "Restock refunded items"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:340
+msgid "Amount already refunded"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:344
+msgid "Total available to refund"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:350
+msgid "Refund the line items above. This will show the total amount to be refunded"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:351
+msgid "Refund amount"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:370
+msgid "Note: the refund reason will be visible by the customer."
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:371
+msgid "Reason for refund (optional):"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:384
+msgid "Payment gateway"
+msgstr ""
+
+#. translators: refund amount, gateway name
+#: template/wc-admin/html-order-items.php:388
+msgid "Refund %1$s via %2$s"
+msgstr ""
+
+#. translators: refund amount
+#: template/wc-admin/html-order-items.php:392
+msgid "You will need to manually issue a refund through your payment gateway after using this."
+msgstr ""
+
+#. translators: refund amount
+#: template/wc-admin/html-order-items.php:392
+msgid "Refund %s manually"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:407
+msgid "Add products"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:418
+msgid "Quantity"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:421
+#: template/wc-admin/html-order-items.php:423
+msgid "Search for a product&hellip;"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:432
+#: template/wc-admin/html-order-items.php:551
+msgid "Add"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:486
+msgid "Or, enter tax rate ID:"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:493
+msgid "Optional"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:524
+msgid "Close modal panel"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:533
+msgid "Rate name"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:534
+msgid "Tax class"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:535
+msgid "Rate code"
+msgstr ""
+
+#: template/wc-admin/html-order-items.php:536
+msgid "Rate %"
+msgstr ""
+
+#: template/wc-admin/html-order-shipping.php:22
+msgid "Shipping"
+msgstr ""
+
+#: template/wc-admin/html-order-shipping.php:26
+msgid "Shipping name"
+msgstr ""
+
+#: template/wc-admin/html-order-shipping.php:28
+msgid "Shipping method"
+msgstr ""
+
+#: template/wc-admin/html-order-shipping.php:44
+#: template/wc-admin/html-order-shipping.php:46
+msgid "Other"
+msgstr ""
+
+#: ppcp-gateway/js/wc-goopter-common-functions.js:867
+msgid "Unfortunately, we do not support this credit card type. Please try another card type."
+msgstr ""
+
+#: ppcp-gateway/js/wc-goopter-common-functions.js:868
+msgid "Unfortunately, your credit card details are not valid. Please review the card details and try again."
+msgstr ""
+
+#: ppcp-gateway/js/wc-goopter-common-functions.js:869
+msgid "Unable to create the order due to the following errors."
+msgstr ""
+
+#: ppcp-gateway/js/wc-goopter-common-functions.js:872
+msgid "Your shopping cart seems to be empty."
+msgstr ""
+
+#: ppcp-gateway/js/wc-goopter-common-functions.js:873
+msgid "Total Amount"
+msgstr ""
+
+#: ppcp-gateway/js/wc-goopter-common-functions.js:874
+msgid "An error occurred while initiating the ApplePay payment."
+msgstr ""
+
+#: ppcp-gateway/js/wc-goopter-common-functions.js:875
+msgid "This merchant is not enabled to process requested payment method. please contact website owner."
+msgstr ""
+
+#: ppcp-gateway/js/wc-goopter-common-functions.js:876
+msgid "We are unable to process your request at the moment, please contact website owner."
+msgstr ""
+
+#: ppcp-gateway/js/wc-goopter-common-functions.js:877
+msgid "Unable to update the shipping amount."
+msgstr ""
+
+#: ppcp-gateway/js/wc-goopter-common-functions.js:878
+msgid "Unable to pull the shipping amount details based on selected address"
+msgstr ""
+
+#: ppcp-gateway/js/wc-goopter-common-functions.js:879
+msgid "We encountered an issue loading the updated currency. Please refresh the page or contact support for assistance."
+msgstr ""
+
+#: ppcp-gateway/js/wc-goopter-common-functions.js:880
+msgid "Unable to create the order, please contact the support."
+msgstr ""
+
+#: ppcp-gateway/js/wc-goopter-common-functions.js:881
+msgid "Unable to create the order, please contact the support with following error message."
+msgstr ""

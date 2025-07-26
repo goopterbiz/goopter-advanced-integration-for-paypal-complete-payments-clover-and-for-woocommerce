@@ -42,8 +42,8 @@ class Goopter_WC_Gateway_Direct_Pay extends WC_Payment_Gateway {
             $order = wc_get_order($woo_order_id);
             $url = $this->get_direct_pay_token_url($order);
             if (is_null($url)) {
-                wc_add_notice(__('Failed to get payment token. Please try again later.', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'), 'error');
-                throw new Exception(__('Failed to get payment token.', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'));
+                wc_add_notice(__('Failed to get payment token. Please try again later.', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'), 'error');
+                throw new Exception(__('Failed to get payment token.', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'));
             }
             $order->update_status('pending');
             $return_data = [
@@ -56,7 +56,7 @@ class Goopter_WC_Gateway_Direct_Pay extends WC_Payment_Gateway {
             return array(
 				'result' => 'failed',
 				'exceptionMessage' => $ex->getMessage(),
-				'message' => __('An error has occurred; Please try again later.', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'),
+				'message' => __('An error has occurred; Please try again later.', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'),
 				'error_code' => 'Unexpected',
 			);
         }
@@ -64,7 +64,7 @@ class Goopter_WC_Gateway_Direct_Pay extends WC_Payment_Gateway {
 
     public function process_refund($order_id, $amount = null, $reason = '') {
         if ($amount <= 0) {
-            return new WP_Error('error', __('Invalid refund amount', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'));
+            return new WP_Error('error', __('Invalid refund amount', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'));
         }
         
         $order = wc_get_order($order_id);
@@ -76,10 +76,10 @@ class Goopter_WC_Gateway_Direct_Pay extends WC_Payment_Gateway {
             if($is_success) {
                 return true;
             } else {
-                return new WP_Error('error', __('Refund failed.', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'));
+                return new WP_Error('error', __('Refund failed.', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'));
             }
         } else {
-            return new WP_Error('error', __('Refund failed.', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'));
+            return new WP_Error('error', __('Refund failed.', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'));
         }
     }
 
@@ -124,8 +124,6 @@ class Goopter_WC_Gateway_Direct_Pay extends WC_Payment_Gateway {
 
         $response = wp_remote_post( PAYPAL_FOR_WOOCOMMERCE_PPCP_GOOPTER_WEB_SERVICE, $args );
         if ( is_wp_error( $response ) ) {
-            // Something went wrong—show or log the error
-            error_log( 'HTTP POST failed: ' . $response->get_error_message() );
             return false;
         }
         $result = json_decode( wp_remote_retrieve_body( $response ), true );
@@ -159,10 +157,7 @@ class Goopter_WC_Gateway_Direct_Pay extends WC_Payment_Gateway {
         ];
 
         $response = wp_remote_post( $url, $args );
-        if ( is_wp_error( $response ) ) {
-            // Something went wrong—show or log the error
-            error_log( 'HTTP POST failed: ' . $response->get_error_message() );
-        } else {
+        if ( !is_wp_error( $response ) ) {
             $data    = wp_remote_retrieve_body( $response );
             $result = json_decode( $data, true );
             if ( isset($result['href']) ) {

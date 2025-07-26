@@ -135,7 +135,7 @@ class Goopter_Cartflows_Pro_Gateway_PayPal_PPCP extends Cartflows_Pro_Paypal_Gat
             wp_send_json(
                 array(
                     'result' => 'fail',
-                    'message' => __('Cannot create orders with empty product.', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'),
+                    'message' => __('Cannot create orders with empty product.', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'),
                 )
             );
         }
@@ -146,7 +146,7 @@ class Goopter_Cartflows_Pro_Gateway_PayPal_PPCP extends Cartflows_Pro_Paypal_Gat
             wp_send_json(
                     array(
                         'result' => 'fail',
-                        'message' => __('Cannot make the Payment for Zero value product', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'),
+                        'message' => __('Cannot make the Payment for Zero value product', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'),
                     )
             );
         } else {
@@ -194,7 +194,7 @@ class Goopter_Cartflows_Pro_Gateway_PayPal_PPCP extends Cartflows_Pro_Paypal_Gat
             } else {
                 $json_response = array(
                     'result' => false,
-                    'message' => __('PayPal order is not created', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'),
+                    'message' => __('PayPal order is not created', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'),
                     'paypal_order_id' => '',
                     'redirect_url' => '',
                     'response' => $response,
@@ -208,7 +208,7 @@ class Goopter_Cartflows_Pro_Gateway_PayPal_PPCP extends Cartflows_Pro_Paypal_Gat
                     );
                     $json_response = array(
                         'status' => 'success',
-                        'message' => __('Order created successfully', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'),
+                        'message' => __('Order created successfully', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'),
                         'paypal_order_id' => $response['id'],
                         'redirect' => $approve_link,
                         'response' => $response,
@@ -254,7 +254,7 @@ class Goopter_Cartflows_Pro_Gateway_PayPal_PPCP extends Cartflows_Pro_Paypal_Gat
         } else {
             $json_response = array(
                 'result' => false,
-                'message' => __('PayPal order is not created', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'),
+                'message' => __('PayPal order is not created', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'),
                 'paypal_order_id' => '',
                 'redirect_url' => '',
                 'response' => $resp_body,
@@ -268,7 +268,7 @@ class Goopter_Cartflows_Pro_Gateway_PayPal_PPCP extends Cartflows_Pro_Paypal_Gat
                 );
                 $json_response = array(
                     'status' => 'success',
-                    'message' => __('Order Captured successfully', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'),
+                    'message' => __('Order Captured successfully', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'),
                     'paypal_order_id' => $resp_body['id'],
                     'response' => $resp_body,
                 );
@@ -287,7 +287,7 @@ class Goopter_Cartflows_Pro_Gateway_PayPal_PPCP extends Cartflows_Pro_Paypal_Gat
                 'breakdown' => $this->get_item_breakdown($order, $offer_product),
             ),
             // translators: %s is replaced with the order ID.
-            'description' => sprintf(__('One Time Offer - %s', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'), $order->get_id()),
+            'description' => sprintf(__('One Time Offer - %s', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'), $order->get_id()),
             'items' => array(
                 $this->add_offer_item_data($order, $offer_product),
             ),

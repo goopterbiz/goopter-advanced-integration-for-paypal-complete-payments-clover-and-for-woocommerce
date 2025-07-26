@@ -241,7 +241,7 @@ class Goopter_PayPal_PPCP_Admin_Onboarding {
                             <br><br>
                             <div class="paypal_woocommerce_product_onboard_content">
                                 <p><?php // Translators: %s is the name of the PayPal solution (e.g., PayPal Advanced).
-                                echo sprintf(wp_kses_post(__('Welcome to the %s solution for WooCommerce. <br> Built by Goopter Commerce Solutions.', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce')), esc_html(GOOPTER_PPCP_NAME)); ?></p>
+                                echo sprintf(wp_kses_post(__('Welcome to the %s solution for WooCommerce. <br> Built by Goopter Commerce Solutions.', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce')), esc_html(GOOPTER_PPCP_NAME)); ?></p>
                                 <?php
                                 // phpcs:disable WordPress.Security.NonceVerification.Recommended -- no security issue
                                 if (isset($_GET['testmode'])) {
@@ -256,7 +256,7 @@ class Goopter_PayPal_PPCP_Admin_Onboarding {
                                     );
                                     $url = add_query_arg($args, $signup_link);
                                     ?>
-                                    <a target="_blank" class="wplk-button" id="<?php echo esc_attr('wplk-button'); ?>" data-paypal-onboard-complete="onboardingCallback" href="<?php echo esc_url($url); ?>" data-paypal-button="true"><?php echo esc_html__('Start Now', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'); ?></a>
+                                    <a target="_blank" class="wplk-button" id="<?php echo esc_attr('wplk-button'); ?>" data-paypal-onboard-complete="onboardingCallback" href="<?php echo esc_url($url); ?>" data-paypal-button="true"><?php echo esc_html__('Start Now', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'); ?></a>
                                     <?php
                                     $script_url = 'https://www.paypal.com/webapps/merchantboarding/js/lib/lightbox/partner.js';
                                     wp_enqueue_script( 'paypal-js', $script_url, array( 'jquery' ), null, true );
@@ -274,14 +274,14 @@ class Goopter_PayPal_PPCP_Admin_Onboarding {
                                     ?>
                                     <?php
                                 } else {
-                                    echo esc_html__('We could not properly connect to PayPal', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce');
+                                    echo esc_html__('We could not properly connect to PayPal', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce');
                                 }
                                 ?>
                                 <p class="ppcp_paypal_fee"><?php // Translators: %s is the PayPal and Goopter fee structure.
                                 echo wp_kses_post(
                                     sprintf(
                                         /* translators: %s: PayPal fee structure */
-                                        __('Increase average order totals and conversion rates with <br>PayPal Checkout, PayPal Credit, Buy Now Pay Later, Venmo, and more! <br>All for a total PayPal + Goopter fee of only %s.', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'),
+                                        __('Increase average order totals and conversion rates with <br>PayPal Checkout, PayPal Credit, Buy Now Pay Later, Venmo, and more! <br>All for a total PayPal + Goopter fee of only %s.', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'),
                                         esc_html($this->goopter_ppcp_get_paypal_fee_structure($this->ppcp_paypal_country, 'paypal'))
                                     )
                                 ); ?>
@@ -293,7 +293,7 @@ class Goopter_PayPal_PPCP_Admin_Onboarding {
                                                 // Translators: %s is the PayPal and Goopter fee structure for Visa/MasterCard/Discover transactions.
                                                 __(
                                                     'Fees on Visa/MasterCard/Discover transactions <br>transactions are a total PayPal + Goopter fee of only %s.',
-                                                    'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'
+                                                    'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'
                                                 )
                                             ),
                                             esc_html($this->goopter_ppcp_get_paypal_fee_structure($this->ppcp_paypal_country, 'acc'))
@@ -306,7 +306,7 @@ class Goopter_PayPal_PPCP_Admin_Onboarding {
                                                 /* translators: %s: PayPal + Goopter fee structure */
                                                 __(
                                                     'Save money on Visa/MasterCard/Discover transactions <br>with a total PayPal + Goopter fee of only %s.',
-                                                    'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'
+                                                    'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'
                                                 ),
                                                 esc_html($this->goopter_ppcp_get_paypal_fee_structure($this->ppcp_paypal_country, 'acc'))
                                             )
@@ -337,7 +337,7 @@ class Goopter_PayPal_PPCP_Admin_Onboarding {
                                         /* translators: %s: Name of the product or service */
                                         __(
                                             'You’re currently set up and enjoying the benefits of %s. <br> Built by Goopter.',
-                                            'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'
+                                            'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'
                                         ),
                                         esc_html(GOOPTER_PPCP_NAME)
                                     )
@@ -349,7 +349,7 @@ class Goopter_PayPal_PPCP_Admin_Onboarding {
                                         /* translators: %s: Reduced rate fee structure */
                                         __(
                                             'However, we need additional verification to approve you for the reduced <br>rate of %s on debit/credit cards.',
-                                            'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'
+                                            'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'
                                         ),
                                         esc_html($this->goopter_ppcp_get_paypal_fee_structure($this->ppcp_paypal_country, 'acc'))
                                     )
@@ -358,7 +358,7 @@ class Goopter_PayPal_PPCP_Admin_Onboarding {
                                 echo wp_kses_post(
                                     __(
                                         'To apply for a reduced rate, modify your setup, <br>or learn more about additional options, please use the buttons below.',
-                                        'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'
+                                        'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'
                                     )
                                 );
                                  ?></p>
@@ -367,13 +367,13 @@ class Goopter_PayPal_PPCP_Admin_Onboarding {
                                     echo wp_kses_post(
                                         __(
                                             'Your PayPal account is not approved for the Vault functionality<br>which is required for Subscriptions (token payments). <br>Please Reconnect your PayPal account to apply for this feature.',
-                                            'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'
+                                            'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'
                                         )
                                     );
                                         ?></p>
                                 <?php } ?>
                                 <br>
-                                <a href="<?php echo esc_url(admin_url('admin.php?page=wc-settings&tab=checkout&section=goopter_ppcp')); ?>" class="wplk-button"><?php echo esc_html__('Modify Setup', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'); ?></a>
+                                <a href="<?php echo esc_url(admin_url('admin.php?page=wc-settings&tab=checkout&section=goopter_ppcp')); ?>" class="wplk-button"><?php echo esc_html__('Modify Setup', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'); ?></a>
                                 <?php
                                 if (isset($_GET['testmode'])) {
                                     $testmode = ($_GET['testmode'] === 'yes') ? 'yes' : 'no';
@@ -388,7 +388,7 @@ class Goopter_PayPal_PPCP_Admin_Onboarding {
                                         );
                                         $url = add_query_arg($args, $signup_link);
                                         ?>
-                                        <a target="_blank" class="green-button" id="<?php echo esc_attr('wplk-button'); ?>" data-paypal-onboard-complete="onboardingCallback" href="<?php echo esc_url($url); ?>" data-paypal-button="true"><?php echo esc_html__('Reconnect PayPal Account', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'); ?></a>
+                                        <a target="_blank" class="green-button" id="<?php echo esc_attr('wplk-button'); ?>" data-paypal-onboard-complete="onboardingCallback" href="<?php echo esc_url($url); ?>" data-paypal-button="true"><?php echo esc_html__('Reconnect PayPal Account', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'); ?></a>
                                         <?php
                                         $script_url = 'https://www.paypal.com/webapps/merchantboarding/js/lib/lightbox/partner.js';
                                         wp_enqueue_script( 'paypal-js', $script_url, array( 'jquery' ), null, true );
@@ -406,7 +406,7 @@ class Goopter_PayPal_PPCP_Admin_Onboarding {
                                         ?>
                                         <?php
                                     } else {
-                                        echo esc_html__('We could not properly connect to PayPal', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce');
+                                        echo esc_html__('We could not properly connect to PayPal', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce');
                                     }
                                 } else if (!empty($goopter_ppcp_account_reconnect_notice)) {
                                     $this->print_general_reconnect_paypal_account_section($testmode);
@@ -432,22 +432,22 @@ class Goopter_PayPal_PPCP_Admin_Onboarding {
                                 <br>
                                 <span><img class="green_checkmark" src="<?php echo esc_url(PAYPAL_FOR_WOOCOMMERCE_ASSET_URL . 'ppcp-gateway/images/admin/green_checkmark.png'); ?>"></span>
                                 <p><?php // Translators: %s is the name of the PayPal solution (e.g., PayPal Advanced).
-                                echo sprintf(wp_kses_post(__('You’re currently set up and enjoying the benefits of %s. <br> Built by Goopter.', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce')), esc_html(GOOPTER_PPCP_NAME)); ?></p>
-                                <p><?php echo wp_kses_post(__('To modify your setup or learn more about additional options, <br> please use the buttons below.', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce')); ?></p>
+                                echo sprintf(wp_kses_post(__('You’re currently set up and enjoying the benefits of %s. <br> Built by Goopter.', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce')), esc_html(GOOPTER_PPCP_NAME)); ?></p>
+                                <p><?php echo wp_kses_post(__('To modify your setup or learn more about additional options, <br> please use the buttons below.', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce')); ?></p>
                                 <?php if ($this->is_paypal_vault_approved === false && in_array($this->ppcp_paypal_country, $paypal_vault_supported_country)) { ?>
                                     <p>
                                     <?php
                                     echo wp_kses_post(
                                         __(
                                             'Your PayPal account is not approved for the Vault functionality<br>which is required for Subscriptions (token payments). <br>Please Reconnect your PayPal account to apply for this feature.',
-                                            'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'
+                                            'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'
                                         )
                                     );
                                     ?>
                                     </p>
                                 <?php } ?>
                                 <br>
-                                <a href="<?php echo esc_url(admin_url('admin.php?page=wc-settings&tab=checkout&section=goopter_ppcp')); ?>" class="wplk-button"><?php echo esc_html__('Modify Setup', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'); ?></a>
+                                <a href="<?php echo esc_url(admin_url('admin.php?page=wc-settings&tab=checkout&section=goopter_ppcp')); ?>" class="wplk-button"><?php echo esc_html__('Modify Setup', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'); ?></a>
                                 <?php
                                 if (isset($_GET['testmode'])) {
                                     $testmode = ($_GET['testmode'] === 'yes') ? 'yes' : 'no';
@@ -462,7 +462,7 @@ class Goopter_PayPal_PPCP_Admin_Onboarding {
                                         );
                                         $url = add_query_arg($args, $signup_link);
                                         ?>
-                                        <a target="_blank" class="green-button" id="<?php echo esc_attr('wplk-button'); ?>" data-paypal-onboard-complete="onboardingCallback" href="<?php echo esc_url($url); ?>" data-paypal-button="true"><?php echo esc_html__('Reconnect PayPal Account', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'); ?></a>
+                                        <a target="_blank" class="green-button" id="<?php echo esc_attr('wplk-button'); ?>" data-paypal-onboard-complete="onboardingCallback" href="<?php echo esc_url($url); ?>" data-paypal-button="true"><?php echo esc_html__('Reconnect PayPal Account', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'); ?></a>
                                         <?php
                                         $script_url = 'https://www.paypal.com/webapps/merchantboarding/js/lib/lightbox/partner.js';
                                         wp_enqueue_script( 'paypal-js', $script_url, array( 'jquery' ), null, true );
@@ -480,7 +480,7 @@ class Goopter_PayPal_PPCP_Admin_Onboarding {
                                         ?>
                                         <?php
                                     } else {
-                                        echo esc_html__('We could not properly connect to PayPal', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce');
+                                        echo esc_html__('We could not properly connect to PayPal', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce');
                                     }
                                 } elseif (!empty($goopter_ppcp_account_reconnect_notice)) {
                                     $this->print_general_reconnect_paypal_account_section($testmode);
@@ -493,8 +493,8 @@ class Goopter_PayPal_PPCP_Admin_Onboarding {
                 <?php } ?>
                 <ul class="paypal_woocommerce_support_downloads paypal_woocommerce_product_onboard ppcp_email_confirm">
                     <li>
-                        <p><?php echo esc_html__('Have A Question Or Need Expert Help?', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'); ?></p>
-                        <a class="wplk-button" href="https://www.goopter.com/contact-us/" target="_blank"><?php echo esc_html__('Contact Support', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'); ?></a>
+                        <p><?php echo esc_html__('Have A Question Or Need Expert Help?', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'); ?></p>
+                        <a class="wplk-button" href="https://www.goopter.com/contact-us/" target="_blank"><?php echo esc_html__('Contact Support', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'); ?></a>
                     </li>
                 </ul>
             </div>
@@ -513,7 +513,7 @@ class Goopter_PayPal_PPCP_Admin_Onboarding {
             );
             $url = add_query_arg($args, $signup_link);
             ?>
-            <a target="_blank" class="green-button" id="<?php echo esc_attr('wplk-button'); ?>" data-paypal-onboard-complete="generalOnboardingCallback" href="<?php echo esc_url($url); ?>" data-paypal-button="true"><?php echo esc_html__('Reconnect PayPal Account', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce'); ?></a>
+            <a target="_blank" class="green-button" id="<?php echo esc_attr('wplk-button'); ?>" data-paypal-onboard-complete="generalOnboardingCallback" href="<?php echo esc_url($url); ?>" data-paypal-button="true"><?php echo esc_html__('Reconnect PayPal Account', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce'); ?></a>
             <?php
             $script_url = 'https://www.paypal.com/webapps/merchantboarding/js/lib/lightbox/partner.js';
             wp_enqueue_script( 'paypal-js', $script_url, array( 'jquery' ), null, true );
@@ -531,7 +531,7 @@ class Goopter_PayPal_PPCP_Admin_Onboarding {
             ?>
             <?php
         } else {
-            echo esc_html__('We could not properly connect to PayPal', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce');
+            echo esc_html__('We could not properly connect to PayPal', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce');
         }
     }
 

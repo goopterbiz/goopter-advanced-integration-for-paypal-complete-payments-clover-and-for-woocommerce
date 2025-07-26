@@ -25,14 +25,14 @@ wp_add_inline_script('add_message_listener', $inline_script);
     <div class="ppcp_account_request-Modal-header">
         <div>
             <button class="ppcp_account_request-Modal-return ppcp_account_request-icon-chevron-left">
-                <?php esc_html_e( 'Return', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce' ); ?>
+                <?php esc_html_e( 'Return', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce' ); ?>
             </button>
             <h2>
-                <?php esc_html_e( 'PPCP Account Request', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce' ); ?>
+                <?php esc_html_e( 'PPCP Account Request', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce' ); ?>
             </h2>
         </div>
         <button class="ppcp_account_request-Modal-close ppcp_account_request-icon-close">
-            <?php esc_html_e( 'Close', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce' ); ?>
+            <?php esc_html_e( 'Close', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce' ); ?>
         </button>
     </div>
     <div class="ppcp_account_request-Modal-content">

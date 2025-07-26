@@ -37,7 +37,7 @@ class Goopter_WC_Gateway_Google_Pay extends Goopter_WC_Gateway_PPCP {
         try {
             $this->id = 'goopter_ppcp_google_pay';
             $this->icon = apply_filters('woocommerce_goopter_ppcp_google_pay_icon', plugins_url('/ppcp-gateway/images/icon/google_pay.png', plugin_basename(dirname(__FILE__))));
-            $this->method_description = __('Accept payments using Google Pay.', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce');
+            $this->method_description = __('Accept payments using Google Pay.', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce');
             $this->has_fields = true;
             $this->goopter_ppcp_load_class();
             $this->supports = array(
@@ -91,7 +91,7 @@ class Goopter_WC_Gateway_Google_Pay extends Goopter_WC_Gateway_PPCP {
         try {
             ?>
             <?php 
-                $description = $this->google_pay_payments_description ?: __('Default Google Pay description', 'goopter-advanced-integration-for-paypal-complete-payments-and-for-woocommerce');
+                $description = $this->google_pay_payments_description ?: __('Default Google Pay description', 'goopter-advanced-integration-for-paypal-complete-payments-clover-and-for-woocommerce');
                 echo '<p>' . esc_html($description) . '</p>'; 
             ?>
             <fieldset id="wc-<?php echo esc_attr($this->id); ?>-form" class='wc-google-pay-form wc-payment-form'>

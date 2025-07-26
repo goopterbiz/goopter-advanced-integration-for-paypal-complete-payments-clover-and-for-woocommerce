@@ -1,8 +1,8 @@
-=== Goopter advanced integration for PayPal Complete Payments and for WooCommerce ===
+=== Goopter advanced integration for PayPal Complete Payments Clover and for WooCommerce ===
 Contributors: goopter
-Tags: woocommerce, paypal, apple pay, google play, credit card
+Tags: woocommerce, paypal, apple pay, clover, credit card
 Tested up to: 6.8
-Stable tag: 1.0.9
+Stable tag: 1.0.10
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -10,11 +10,11 @@ Integrate PayPal with WooCommerce, allowing payments via PayPal, credit/debit ca
 
 == Description ==
 
-Easily integrate PayPal with your WooCommerce store. This plugin helps you connect your PayPal account so customers can pay using PayPal, their preferred credit/debit cards, Apple Pay, Google Pay, or even Venmo, Pay Later at checkout.
+Easily integrate PayPal and Clover with your WooCommerce store. This plugin helps you connect your PayPal and Clover accounts so customers can pay using PayPal, Clover, their preferred credit/debit cards, Apple Pay, Google Pay, Venmo, or Pay Later at checkout.
 
 == Installation ==
 
-= Setup =
+= Setup for PayPal Complete Payments =
 
 1. Open PayPal Complete Payments Settings:
    Go to Settings > PayPal Complete Payments in your WordPress admin.
@@ -34,49 +34,42 @@ Easily integrate PayPal with your WooCommerce store. This plugin helps you conne
    To adjust configuration details later, click the "Modify Setup" button in the 
    PayPal Complete Payments settings.
 
-Congratulations! Your WooCommerce store is now ready to accept PayPal payments.
+= Setup for Clover Payments (Required: contact Goopter Support at info@goopter.com to use this feature) =
+
+1. Open Clover Settings:
+   In your WordPress admin, go to WooCommerce > Settings > Payments > PayPal Complete Payments & Clover > Manage.
+2. Enable Clover Pay:
+   Tick the Enable Clover Pay checkbox.
+3. Enter Your Clover Credentials:
+   - Clover Merchant ID
+   - Goopter Soft Descriptor
+   - Goopter Webhook Secret Key
+   You’ll receive these details from Goopter Support at info@goopter.com.
+4. Modify Settings (Optional):
+   If you plan to accept Credit Card, Google Pay or Apple Pay via Clover, disable those options under the PayPal settings to prevent conflicts.
+5. Save Changes:
+   Click the Save Changes button to apply your configuration.
+
+Congratulations! Your WooCommerce store is now ready to accept payments via PayPal and/or Clover.
 
 = Minimum Requirements =
 
 * WooCommerce 3.0 or higher
 
 == External Services ==
-This plugin communicates with PayPal’s API to facilitate payment transactions. 
-The PayPal API may collect information required for processing payments, such as user details, payment method, and transaction information.
-By using this plugin, you agree to the following terms and conditions related to PayPal’s services:
+This plugin communicates with PayPal’s API or Clover's API to facilitate payment transactions. 
+The PayPal or Clover API may collect information required for processing payments, such as user details, payment method, and transaction information.
+By using this plugin, you agree to the following terms and conditions related to PayPal’s or Clover services:
 
 *Service Provider: PayPal
 *Terms of Use: [PayPal Terms of Service](https://www.paypal.com/us/legalhub/paypal/home)
 *Privacy Policy: [PayPal Privacy Policy](https://www.paypal.com/us/legalhub/paypal/privacy-full)
 
+*Service Provider: Clover
+*Terms of Use: [Clover Terms of Service](https://www.clover.com/terms)
+*Privacy Policy: [Clover Privacy Policy](https://www.clover.com/privacy-policy)
+
 == Changelog ==
 
-= 1.0.0 - 2025-02-21 =
+= 1.0.10 - 2025-07-25 =
 * New: Initial Release
-
-= 1.0.1 - 2025-02-24 =
-* New: Added 3ds on product and cart pages
-
-= 1.0.2 - 2025-02-27 =
-* Fix: Resolved UI issues(#14748)
-
-= 1.0.3 - 2025-02-28 =
-* Fix: Resolved additional UI issues(#14748)
-
-= 1.0.4 - 2025-03-06 =
-* Fix: checkout billing address issue when the payapl is disabled(#14753)
-
-= 1.0.5 - 2025-03-13 =
-* Fix: checkout billing address issue when the payapl and 3ds are both disabled(#14753)
-
-= 1.0.6 - 2025-03-17 =
-* Update: updated goopter server end point
-
-= 1.0.7 - 2025-03-19 =
-* Fix: Corrected the maximum soft descriptor length from 21 to 22(#14760)
-
-= 1.0.8 - 2025-03-14 =
-* Fix: Fixed missing error message for apple, google, 3ds in new checkout block page(#14763)
-
-= 1.0.9 - 2025-05-14 =
-* Update: Enhanced theme compatibility and buttons display logic for product variation
